@@ -6,3 +6,9 @@ __pycache__/
 .env.production
 claudeAPIKey.txt
 /web_app
+/archive
+/backtest
+/backtest_logs
+/candle_data
+/public
+start_app.bat

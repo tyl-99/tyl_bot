@@ -30,23 +30,23 @@ try:
 except ImportError:
     EURUSDSTRATEGY = None
 try:
-    from strategy.gbpusd_strategy import GBPUSDSTRATEGY
+    from strategy.gbpusd_strategy import GBPUSDStrategy as GBPUSDSTRATEGY
 except ImportError:
     GBPUSDSTRATEGY = None
 try:
-    from strategy.eurgbp_strategy import EURGBPSTRATEGY
+    from strategy.eurgbp_strategy import EURGBPStrategy as EURGBPSTRATEGY
 except ImportError:
     EURGBPSTRATEGY = None
 try:
-    from strategy.usdjpy_strategy import USDJPYSTRATEGY
+    from strategy.usdjpy_strategy import USDJPYStrategy as USDJPYSTRATEGY
 except ImportError:
     USDJPYSTRATEGY = None
 try:
-    from strategy.gbpjpy_strategy import GBPJPYSTRATEGY
+    from strategy.gbpjpy_strategy import GBPJPYStrategy as GBPJPYSTRATEGY
 except ImportError:
     GBPJPYSTRATEGY = None
 try:
-    from strategy.eurjpy_strategy import EURJPYSTRATEGY
+    from strategy.eurjpy_strategy import EURJPYStrategy as EURJPYSTRATEGY
 except ImportError:
     EURJPYSTRATEGY = None
 
@@ -305,15 +305,18 @@ class Trader:
             order.symbolId = symbol_id
             order.volume = int(self.pending_order["volume"])*100
 
-            # Change to LIMIT order instead of MARKET
-            order.orderType = ProtoOAOrderType.MARKET
+            # Use LIMIT order with explicit entry price from strategy
+            order.orderType = ProtoOAOrderType.LIMIT
             
-            # For market orders, limitPrice is not set. Entry price will be the actual market price.
-            # We still set stop loss and take profit directly.
-            # if 'JPY' in self.current_pair:
-            #     order.limitPrice = round(float(self.pending_order["entry_price"]), 3)
-            # else:
-            #     order.limitPrice = round(float(self.pending_order["entry_price"]), 5)
+            # Set precise limit price based on pair precision
+            if 'JPY' in self.current_pair:
+                order.limitPrice = round(float(self.pending_order["entry_price"]), 3)
+            else:
+                order.limitPrice = round(float(self.pending_order["entry_price"]), 5)
+            
+            # Optional expiration: auto-cancel if not filled in 15 minutes
+            current_timestamp = int(time.time() * 1000)
+            order.expirationTimestamp = current_timestamp + (15 * 60 * 1000)
             
             # No expiration - limit orders stay active until filled or manually cancelled
             # order.expirationTimestamp = expiration_timestamp  # Removed expiration
@@ -750,6 +753,12 @@ class Trader:
                     self.original_trade_data = trade_data.copy()
                 
                 logger.info(f"Trade signal: {trade_data}")
+                try:
+                    # Send pre-trade notification before placing order
+                    if os.getenv("sendNotification") == "true":
+                        self.send_pushover_pretrade(self.current_pair, trade_data)
+                except Exception as e:
+                    logger.warning(f"Pre-trade notification failed: {e}")
                 self.sendOrderReq(self.current_pair, trade_data)
                 
         except Exception as e:
@@ -917,6 +926,62 @@ class Trader:
         
         return compact_message
     
+    def format_pretrade_notification(self, pair_name, trade_data):
+        """Format notification for a pre-trade signal before sending order"""
+        try:
+            decision = trade_data.get('decision', 'UNKNOWN')
+            entry = float(trade_data.get('entry_price', 0.0))
+            sl = float(trade_data.get('stop_loss', 0.0))
+            tp = float(trade_data.get('take_profit', 0.0))
+            rr = trade_data.get('risk_reward_ratio', 'N/A')
+            vol_lots = float(trade_data.get('volume', 0.0))
+            reason = (trade_data.get('reason') or '')
+            message_parts = [
+                f"🟡 PRE-TRADE SIGNAL",
+                f"💱 Pair: {pair_name}",
+                f"Action: {decision}",
+                "",
+                "📊 PROPOSED ORDER:",
+                f"Entry: ${entry:.5f}",
+                f"Stop Loss: ${sl:.5f}",
+                f"Take Profit: ${tp:.5f}",
+                f"Volume: {vol_lots:.2f} lots",
+                f"R:R: {rr}",
+                "",
+                "💡 REASON:",
+                f"{reason[:160]}{'...' if len(reason) > 160 else ''}",
+                "",
+                f"⏰ {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC"
+            ]
+            return "\n".join(message_parts)
+        except Exception as e:
+            logger.warning(f"Error formatting pre-trade notification: {e}")
+            return f"🟡 PRE-TRADE SIGNAL {pair_name}"
+
+    def send_pushover_pretrade(self, pair_name, trade_data):
+        """Send a Pushover notification prior to order placement"""
+        APP_TOKEN = "ah7dehvsrm6j3pmwg9se5h7svwj333"
+        USER_KEY = "u4ipwwnphbcs2j8iiosg3gqvompfs2"
+
+        message = self.format_pretrade_notification(pair_name, trade_data)
+        payload = {
+            "token": APP_TOKEN,
+            "user": USER_KEY,
+            "message": message,
+            "title": f"🟡 Pre-Trade Alert - {pair_name}",
+            "priority": 0,
+            "sound": "pushover"
+        }
+
+        try:
+            response = requests.post("https://api.pushover.net/1/messages.json", data=payload)
+            if response.status_code == 200:
+                logger.info(f"Pre-trade notification sent for {pair_name}")
+            else:
+                logger.error(f"Pre-trade Pushover failed: {response.status_code} {response.text}")
+        except Exception as e:
+            logger.error(f"Pre-trade Pushover error: {str(e)}")
+
     def getActivePosition(self):
         req = ProtoOAReconcileReq()
         req.ctidTraderAccountId = self.account_id

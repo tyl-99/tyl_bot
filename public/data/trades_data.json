@@ -1,0 +1,1974 @@
+{
+  "EUR_USD": [
+    {
+      "Trade ID": "trade_20250701_085537_EUR_USD_001",
+      "Symbol": "EUR/USD",
+      "Entry Time": "2025-07-01 08:55:44",
+      "Exit Time": "Pending",
+      "Buy/Sell": "BUY",
+      "Position ID": "Pending",
+      "Order ID": "Pending",
+      "Entry Price": 0.0,
+      "Exit Price": "Pending",
+      "Stop Loss": 1.082,
+      "Take Profit": 1.089,
+      "Position Size": 0.15,
+      "Risk Amount": "$50.00",
+      "Actual P&L": "Pending",
+      "R:R Ratio": 2.85,
+      "Win/Lose": "PENDING",
+      "Strategy": "EURUSDSupplyDemandStrategy",
+      "Zone Type": "demand",
+      "Zone High": 1.085,
+      "Zone Low": 1.084,
+      "Trade Reason": "Strong demand zone rejection with bullish confirmation and volume spike",
+      "Market Session": "london_session",
+      "Volatility": "medium",
+      "Confidence Level": "high",
+      "pair": "EUR/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 0.0,
+        "fib_0.236": 0.0,
+        "fib_0.382": 0.0,
+        "fib_0.5": 0.0,
+        "fib_0.618": 0.0,
+        "fib_0.786": 0.0,
+        "fib_1.0": 0.0
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": true,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Golden ratio (0.618) respected",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": []
+      }
+    }
+  ],
+  "GBP_USD": [
+    {
+      "Trade_ID": 1,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.21101,
+      "Exit_Price": 1.21101,
+      "SL": 1.21101,
+      "TP": 1.21485,
+      "Position_Size": 0.5208333333332943,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 9.600000000000719,
+      "Reward_Pips": 28.80000000000216,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.21232,
+      "Zone_Low": 1.21121,
+      "Win/Lose": "LOSS",
+      "Trade ID": 1,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.21101,
+        "fib_0.236": 1.21192,
+        "fib_0.382": 1.21248,
+        "fib_0.5": 1.21293,
+        "fib_0.618": 1.21338,
+        "fib_0.786": 1.21403,
+        "fib_1.0": 1.21485
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 2,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.20889,
+      "Exit_Price": 1.21353,
+      "SL": 1.20889,
+      "TP": 1.21353,
+      "Position_Size": 0.4310344827586022,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 11.6000000000005,
+      "Reward_Pips": 34.8000000000015,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.21051,
+      "Zone_Low": 1.20909,
+      "Win/Lose": "WIN",
+      "Trade ID": 2,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.20889,
+        "fib_0.236": 1.20999,
+        "fib_0.382": 1.21066,
+        "fib_0.5": 1.21121,
+        "fib_0.618": 1.21176,
+        "fib_0.786": 1.21254,
+        "fib_1.0": 1.21353
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 3,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.22704,
+      "Exit_Price": 1.22704,
+      "SL": 1.22704,
+      "TP": 1.221,
+      "Position_Size": 0.3311258278145914,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 15.099999999999,
+      "Reward_Pips": 45.29999999999701,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.22684,
+      "Zone_Low": 1.22546,
+      "Win/Lose": "LOSS",
+      "Trade ID": 3,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.22704,
+        "fib_0.236": 1.22561,
+        "fib_0.382": 1.22473,
+        "fib_0.5": 1.22402,
+        "fib_0.618": 1.22331,
+        "fib_0.786": 1.22229,
+        "fib_1.0": 1.221
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 4,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.28055,
+      "Exit_Price": 1.27671,
+      "SL": 1.28055,
+      "TP": 1.27671,
+      "Position_Size": 0.5208333333332943,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 9.600000000000719,
+      "Reward_Pips": 28.80000000000216,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.28035,
+      "Zone_Low": 1.27905,
+      "Win/Lose": "WIN",
+      "Trade ID": 4,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.28055,
+        "fib_0.236": 1.27964,
+        "fib_0.382": 1.27908,
+        "fib_0.5": 1.27863,
+        "fib_0.618": 1.27818,
+        "fib_0.786": 1.27753,
+        "fib_1.0": 1.27671
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 5,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.21336,
+      "Exit_Price": 1.21336,
+      "SL": 1.21336,
+      "TP": 1.21744,
+      "Position_Size": 0.4901960784313625,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 10.20000000000021,
+      "Reward_Pips": 30.60000000000063,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.21447,
+      "Zone_Low": 1.21356,
+      "Win/Lose": "LOSS",
+      "Trade ID": 5,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.21336,
+        "fib_0.236": 1.21432,
+        "fib_0.382": 1.21492,
+        "fib_0.5": 1.2154,
+        "fib_0.618": 1.21588,
+        "fib_0.786": 1.21657,
+        "fib_1.0": 1.21744
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 6,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.21584,
+      "Exit_Price": 1.22244,
+      "SL": 1.21584,
+      "TP": 1.22244,
+      "Position_Size": 0.303030303030316,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 16.49999999999929,
+      "Reward_Pips": 49.49999999999788,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.2175,
+      "Zone_Low": 1.21604,
+      "Win/Lose": "WIN",
+      "Trade ID": 6,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.21584,
+        "fib_0.236": 1.2174,
+        "fib_0.382": 1.21836,
+        "fib_0.5": 1.21914,
+        "fib_0.618": 1.21992,
+        "fib_0.786": 1.22103,
+        "fib_1.0": 1.22244
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 7,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.23295,
+      "Exit_Price": 1.23295,
+      "SL": 1.23295,
+      "TP": 1.22907,
+      "Position_Size": 0.5154639175258182,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 9.699999999999154,
+      "Reward_Pips": 29.09999999999746,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.23275,
+      "Zone_Low": 1.23187,
+      "Win/Lose": "LOSS",
+      "Trade ID": 7,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.23295,
+        "fib_0.236": 1.23203,
+        "fib_0.382": 1.23147,
+        "fib_0.5": 1.23101,
+        "fib_0.618": 1.23055,
+        "fib_0.786": 1.2299,
+        "fib_1.0": 1.22907
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 8,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.22742,
+      "Exit_Price": 1.233340000000001,
+      "SL": 1.22742,
+      "TP": 1.233340000000001,
+      "Position_Size": 0.3378378378378041,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 14.80000000000148,
+      "Reward_Pips": 44.40000000000443,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.23001,
+      "Zone_Low": 1.22762,
+      "Win/Lose": "WIN",
+      "Trade ID": 8,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.22742,
+        "fib_0.236": 1.22882,
+        "fib_0.382": 1.22968,
+        "fib_0.5": 1.23038,
+        "fib_0.618": 1.23108,
+        "fib_0.786": 1.23207,
+        "fib_1.0": 1.23334
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 9,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.23341,
+      "Exit_Price": 1.23905,
+      "SL": 1.23341,
+      "TP": 1.23905,
+      "Position_Size": 0.3546099290780365,
+      "Risk_Amount_USD": 50.00000000000001,
+      "Potential_Loss_USD": 50.00000000000001,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 14.09999999999911,
+      "Reward_Pips": 42.29999999999734,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.235,
+      "Zone_Low": 1.23361,
+      "Win/Lose": "WIN",
+      "Trade ID": 9,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.23341,
+        "fib_0.236": 1.23474,
+        "fib_0.382": 1.23556,
+        "fib_0.5": 1.23623,
+        "fib_0.618": 1.2369,
+        "fib_0.786": 1.23784,
+        "fib_1.0": 1.23905
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 10,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.25462,
+      "Exit_Price": 1.25462,
+      "SL": 1.25462,
+      "TP": 1.2477,
+      "Position_Size": 0.2890173410404608,
+      "Risk_Amount_USD": 49.99999999999999,
+      "Potential_Loss_USD": 49.99999999999999,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -50.99999999999999,
+      "Risk_Pips": 17.30000000000009,
+      "Reward_Pips": 51.90000000000028,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.25442,
+      "Zone_Low": 1.25273,
+      "Win/Lose": "LOSS",
+      "Trade ID": 10,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.25462,
+        "fib_0.236": 1.25299,
+        "fib_0.382": 1.25198,
+        "fib_0.5": 1.25116,
+        "fib_0.618": 1.25034,
+        "fib_0.786": 1.24918,
+        "fib_1.0": 1.2477
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 11,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.23893,
+      "Exit_Price": 1.24409,
+      "SL": 1.23893,
+      "TP": 1.24409,
+      "Position_Size": 0.3875968992248022,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 12.90000000000013,
+      "Reward_Pips": 38.7000000000004,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.24062,
+      "Zone_Low": 1.23913,
+      "Win/Lose": "WIN",
+      "Trade ID": 11,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.23893,
+        "fib_0.236": 1.24015,
+        "fib_0.382": 1.2409,
+        "fib_0.5": 1.24151,
+        "fib_0.618": 1.24212,
+        "fib_0.786": 1.24299,
+        "fib_1.0": 1.24409
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 12,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.24542,
+      "Exit_Price": 1.24542,
+      "SL": 1.24542,
+      "TP": 1.240620000000001,
+      "Position_Size": 0.4166666666667125,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 11.99999999999868,
+      "Reward_Pips": 35.99999999999604,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.24522,
+      "Zone_Low": 1.2439,
+      "Win/Lose": "LOSS",
+      "Trade ID": 12,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.24542,
+        "fib_0.236": 1.24429,
+        "fib_0.382": 1.24359,
+        "fib_0.5": 1.24302,
+        "fib_0.618": 1.24245,
+        "fib_0.786": 1.24165,
+        "fib_1.0": 1.24062
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 13,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.24836,
+      "Exit_Price": 1.24836,
+      "SL": 1.24836,
+      "TP": 1.2536,
+      "Position_Size": 0.381679389312935,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 13.10000000000144,
+      "Reward_Pips": 39.30000000000433,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.24971,
+      "Zone_Low": 1.24856,
+      "Win/Lose": "LOSS",
+      "Trade ID": 13,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.24836,
+        "fib_0.236": 1.2496,
+        "fib_0.382": 1.25036,
+        "fib_0.5": 1.25098,
+        "fib_0.618": 1.2516,
+        "fib_0.786": 1.25248,
+        "fib_1.0": 1.2536
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 14,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.24596,
+      "Exit_Price": 1.252960000000001,
+      "SL": 1.24596,
+      "TP": 1.252960000000001,
+      "Position_Size": 0.2857142857142628,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 17.5000000000014,
+      "Reward_Pips": 52.50000000000421,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.24831,
+      "Zone_Low": 1.24616,
+      "Win/Lose": "WIN",
+      "Trade ID": 14,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.24596,
+        "fib_0.236": 1.24761,
+        "fib_0.382": 1.24863,
+        "fib_0.5": 1.24946,
+        "fib_0.618": 1.25029,
+        "fib_0.786": 1.25146,
+        "fib_1.0": 1.25296
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 15,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.26086,
+      "Exit_Price": 1.26086,
+      "SL": 1.26086,
+      "TP": 1.26598,
+      "Position_Size": 0.3906250000000159,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 12.79999999999948,
+      "Reward_Pips": 38.39999999999844,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.2624,
+      "Zone_Low": 1.26106,
+      "Win/Lose": "LOSS",
+      "Trade ID": 15,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.26086,
+        "fib_0.236": 1.26207,
+        "fib_0.382": 1.26282,
+        "fib_0.5": 1.26342,
+        "fib_0.618": 1.26402,
+        "fib_0.786": 1.26488,
+        "fib_1.0": 1.26598
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 16,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.26378,
+      "Exit_Price": 1.26958,
+      "SL": 1.26378,
+      "TP": 1.26958,
+      "Position_Size": 0.3448275862069081,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 14.49999999999951,
+      "Reward_Pips": 43.49999999999854,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.26567,
+      "Zone_Low": 1.26398,
+      "Win/Lose": "WIN",
+      "Trade ID": 16,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.26378,
+        "fib_0.236": 1.26515,
+        "fib_0.382": 1.266,
+        "fib_0.5": 1.26668,
+        "fib_0.618": 1.26736,
+        "fib_0.786": 1.26834,
+        "fib_1.0": 1.26958
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 17,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.26099,
+      "Exit_Price": 1.26099,
+      "SL": 1.26099,
+      "TP": 1.25707,
+      "Position_Size": 0.510204081632663,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 9.799999999999809,
+      "Reward_Pips": 29.39999999999943,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.26079,
+      "Zone_Low": 1.26001,
+      "Win/Lose": "LOSS",
+      "Trade ID": 17,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.26099,
+        "fib_0.236": 1.26006,
+        "fib_0.382": 1.25949,
+        "fib_0.5": 1.25903,
+        "fib_0.618": 1.25857,
+        "fib_0.786": 1.25791,
+        "fib_1.0": 1.25707
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 18,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.2683,
+      "Exit_Price": 1.2683,
+      "SL": 1.2683,
+      "TP": 1.2645,
+      "Position_Size": 0.5263157894736806,
+      "Risk_Amount_USD": 49.99999999999999,
+      "Potential_Loss_USD": 49.99999999999999,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -50.99999999999999,
+      "Risk_Pips": 9.500000000000064,
+      "Reward_Pips": 28.50000000000019,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.2681,
+      "Zone_Low": 1.26664,
+      "Win/Lose": "LOSS",
+      "Trade ID": 18,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.2683,
+        "fib_0.236": 1.2674,
+        "fib_0.382": 1.26685,
+        "fib_0.5": 1.2664,
+        "fib_0.618": 1.26595,
+        "fib_0.786": 1.26531,
+        "fib_1.0": 1.2645
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 19,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.26885,
+      "Exit_Price": 1.27521,
+      "SL": 1.26885,
+      "TP": 1.27521,
+      "Position_Size": 0.3144654088050353,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 15.8999999999998,
+      "Reward_Pips": 47.69999999999941,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.27091,
+      "Zone_Low": 1.26905,
+      "Win/Lose": "WIN",
+      "Trade ID": 19,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.26885,
+        "fib_0.236": 1.27035,
+        "fib_0.382": 1.27128,
+        "fib_0.5": 1.27203,
+        "fib_0.618": 1.27278,
+        "fib_0.786": 1.27385,
+        "fib_1.0": 1.27521
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 20,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.2708,
+      "Exit_Price": 1.2708,
+      "SL": 1.2708,
+      "TP": 1.27576,
+      "Position_Size": 0.4032258064515707,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 12.4000000000013,
+      "Reward_Pips": 37.2000000000039,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.27242,
+      "Zone_Low": 1.271,
+      "Win/Lose": "LOSS",
+      "Trade ID": 20,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.2708,
+        "fib_0.236": 1.27197,
+        "fib_0.382": 1.27269,
+        "fib_0.5": 1.27328,
+        "fib_0.618": 1.27387,
+        "fib_0.786": 1.2747,
+        "fib_1.0": 1.27576
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 21,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.27538,
+      "Exit_Price": 1.27538,
+      "SL": 1.27538,
+      "TP": 1.27058,
+      "Position_Size": 0.4166666666667125,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 11.99999999999868,
+      "Reward_Pips": 35.99999999999604,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.27518,
+      "Zone_Low": 1.274,
+      "Win/Lose": "LOSS",
+      "Trade ID": 21,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.27538,
+        "fib_0.236": 1.27425,
+        "fib_0.382": 1.27355,
+        "fib_0.5": 1.27298,
+        "fib_0.618": 1.27241,
+        "fib_0.786": 1.27161,
+        "fib_1.0": 1.27058
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 22,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.30049,
+      "Exit_Price": 1.29673,
+      "SL": 1.30049,
+      "TP": 1.29673,
+      "Position_Size": 0.5319148936170547,
+      "Risk_Amount_USD": 49.99999999999999,
+      "Potential_Loss_USD": 49.99999999999999,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 9.399999999999409,
+      "Reward_Pips": 28.19999999999823,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.30029,
+      "Zone_Low": 1.2992,
+      "Win/Lose": "WIN",
+      "Trade ID": 22,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.30049,
+        "fib_0.236": 1.2996,
+        "fib_0.382": 1.29905,
+        "fib_0.5": 1.29861,
+        "fib_0.618": 1.29817,
+        "fib_0.786": 1.29753,
+        "fib_1.0": 1.29673
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 23,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.30381,
+      "Exit_Price": 1.29861,
+      "SL": 1.30381,
+      "TP": 1.29861,
+      "Position_Size": 0.384615384615427,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 12.99999999999857,
+      "Reward_Pips": 38.9999999999957,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.30361,
+      "Zone_Low": 1.30236,
+      "Win/Lose": "WIN",
+      "Trade ID": 23,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.30381,
+        "fib_0.236": 1.30258,
+        "fib_0.382": 1.30182,
+        "fib_0.5": 1.30121,
+        "fib_0.618": 1.3006,
+        "fib_0.786": 1.29972,
+        "fib_1.0": 1.29861
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 24,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.31481,
+      "Exit_Price": 1.31481,
+      "SL": 1.31481,
+      "TP": 1.32309,
+      "Position_Size": 0.2415458937198049,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 20.70000000000016,
+      "Reward_Pips": 62.10000000000048,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.31695,
+      "Zone_Low": 1.31501,
+      "Win/Lose": "LOSS",
+      "Trade ID": 24,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.31481,
+        "fib_0.236": 1.31676,
+        "fib_0.382": 1.31797,
+        "fib_0.5": 1.31895,
+        "fib_0.618": 1.31993,
+        "fib_0.786": 1.32132,
+        "fib_1.0": 1.32309
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 25,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.29654,
+      "Exit_Price": 1.29654,
+      "SL": 1.29654,
+      "TP": 1.30626,
+      "Position_Size": 0.2057613168724337,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 24.29999999999932,
+      "Reward_Pips": 72.89999999999796,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.29917,
+      "Zone_Low": 1.29674,
+      "Win/Lose": "LOSS",
+      "Trade ID": 25,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.29654,
+        "fib_0.236": 1.29883,
+        "fib_0.382": 1.30025,
+        "fib_0.5": 1.3014,
+        "fib_0.618": 1.30255,
+        "fib_0.786": 1.30418,
+        "fib_1.0": 1.30626
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 26,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.28177,
+      "Exit_Price": 1.288449999999999,
+      "SL": 1.28177,
+      "TP": 1.288449999999999,
+      "Position_Size": 0.2994011976048194,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 16.69999999999838,
+      "Reward_Pips": 50.09999999999515,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.28379,
+      "Zone_Low": 1.28197,
+      "Win/Lose": "WIN",
+      "Trade ID": 26,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.28177,
+        "fib_0.236": 1.28335,
+        "fib_0.382": 1.28432,
+        "fib_0.5": 1.28511,
+        "fib_0.618": 1.2859,
+        "fib_0.786": 1.28702,
+        "fib_1.0": 1.28845
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 27,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.28757,
+      "Exit_Price": 1.28757,
+      "SL": 1.28757,
+      "TP": 1.29657,
+      "Position_Size": 0.2222222222222357,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 22.49999999999863,
+      "Reward_Pips": 67.4999999999959,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.28992,
+      "Zone_Low": 1.28777,
+      "Win/Lose": "LOSS",
+      "Trade ID": 27,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.28757,
+        "fib_0.236": 1.28969,
+        "fib_0.382": 1.29101,
+        "fib_0.5": 1.29207,
+        "fib_0.618": 1.29313,
+        "fib_0.786": 1.29464,
+        "fib_1.0": 1.29657
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 28,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.28481,
+      "Exit_Price": 1.28481,
+      "SL": 1.28481,
+      "TP": 1.28957,
+      "Position_Size": 0.4201680672268821,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 11.90000000000024,
+      "Reward_Pips": 35.70000000000073,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.28619,
+      "Zone_Low": 1.28501,
+      "Win/Lose": "LOSS",
+      "Trade ID": 28,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.28481,
+        "fib_0.236": 1.28593,
+        "fib_0.382": 1.28663,
+        "fib_0.5": 1.28719,
+        "fib_0.618": 1.28775,
+        "fib_0.786": 1.28855,
+        "fib_1.0": 1.28957
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 29,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.2773,
+      "Exit_Price": 1.282739999999999,
+      "SL": 1.2773,
+      "TP": 1.282739999999999,
+      "Position_Size": 0.3676470588235819,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 13.59999999999806,
+      "Reward_Pips": 40.79999999999417,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.27903,
+      "Zone_Low": 1.2775,
+      "Win/Lose": "WIN",
+      "Trade ID": 29,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.2773,
+        "fib_0.236": 1.27858,
+        "fib_0.382": 1.27938,
+        "fib_0.5": 1.28002,
+        "fib_0.618": 1.28066,
+        "fib_0.786": 1.28158,
+        "fib_1.0": 1.28274
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 30,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.29058,
+      "Exit_Price": 1.29842,
+      "SL": 1.29058,
+      "TP": 1.29842,
+      "Position_Size": 0.2551020408163315,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 19.59999999999962,
+      "Reward_Pips": 58.79999999999885,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.29277,
+      "Zone_Low": 1.29078,
+      "Win/Lose": "WIN",
+      "Trade ID": 30,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.29058,
+        "fib_0.236": 1.29243,
+        "fib_0.382": 1.29357,
+        "fib_0.5": 1.2945,
+        "fib_0.618": 1.29543,
+        "fib_0.786": 1.29674,
+        "fib_1.0": 1.29842
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 31,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.30673,
+      "Exit_Price": 1.29885,
+      "SL": 1.30673,
+      "TP": 1.29885,
+      "Position_Size": 0.2538071065989813,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 19.70000000000027,
+      "Reward_Pips": 59.10000000000082,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.30653,
+      "Zone_Low": 1.30462,
+      "Win/Lose": "WIN",
+      "Trade ID": 31,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.30673,
+        "fib_0.236": 1.30487,
+        "fib_0.382": 1.30372,
+        "fib_0.5": 1.30279,
+        "fib_0.618": 1.30186,
+        "fib_0.786": 1.30054,
+        "fib_1.0": 1.29885
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 32,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.30062,
+      "Exit_Price": 1.30638,
+      "SL": 1.30062,
+      "TP": 1.30638,
+      "Position_Size": 0.3472222222222498,
+      "Risk_Amount_USD": 50.00000000000001,
+      "Potential_Loss_USD": 50.00000000000001,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 14.39999999999886,
+      "Reward_Pips": 43.19999999999657,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.30206,
+      "Zone_Low": 1.30082,
+      "Win/Lose": "WIN",
+      "Trade ID": 32,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.30062,
+        "fib_0.236": 1.30198,
+        "fib_0.382": 1.30282,
+        "fib_0.5": 1.3035,
+        "fib_0.618": 1.30418,
+        "fib_0.786": 1.30515,
+        "fib_1.0": 1.30638
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 33,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.30939,
+      "Exit_Price": 1.31327,
+      "SL": 1.30939,
+      "TP": 1.31327,
+      "Position_Size": 0.5154639175258182,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 9.699999999999154,
+      "Reward_Pips": 29.09999999999746,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.31049,
+      "Zone_Low": 1.30959,
+      "Win/Lose": "WIN",
+      "Trade ID": 33,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.30939,
+        "fib_0.236": 1.31031,
+        "fib_0.382": 1.31087,
+        "fib_0.5": 1.31133,
+        "fib_0.618": 1.31179,
+        "fib_0.786": 1.31244,
+        "fib_1.0": 1.31327
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 34,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.31071,
+      "Exit_Price": 1.316989999999999,
+      "SL": 1.31071,
+      "TP": 1.316989999999999,
+      "Position_Size": 0.3184713375796484,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 15.69999999999849,
+      "Reward_Pips": 47.09999999999548,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.31282,
+      "Zone_Low": 1.31091,
+      "Win/Lose": "WIN",
+      "Trade ID": 34,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.31071,
+        "fib_0.236": 1.31219,
+        "fib_0.382": 1.31311,
+        "fib_0.5": 1.31385,
+        "fib_0.618": 1.31459,
+        "fib_0.786": 1.31565,
+        "fib_1.0": 1.31699
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 35,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.32064,
+      "Exit_Price": 1.32064,
+      "SL": 1.32064,
+      "TP": 1.31508,
+      "Position_Size": 0.3597122302158268,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 13.90000000000002,
+      "Reward_Pips": 41.70000000000007,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.32044,
+      "Zone_Low": 1.31906,
+      "Win/Lose": "LOSS",
+      "Trade ID": 35,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.32064,
+        "fib_0.236": 1.31933,
+        "fib_0.382": 1.31852,
+        "fib_0.5": 1.31786,
+        "fib_0.618": 1.3172,
+        "fib_0.786": 1.31627,
+        "fib_1.0": 1.31508
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 36,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.31704,
+      "Exit_Price": 1.31704,
+      "SL": 1.31704,
+      "TP": 1.32208,
+      "Position_Size": 0.3968253968253845,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 149.9999999999999,
+      "PnL": -51.0,
+      "Risk_Pips": 12.60000000000039,
+      "Reward_Pips": 37.80000000000116,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.31844,
+      "Zone_Low": 1.31724,
+      "Win/Lose": "LOSS",
+      "Trade ID": 36,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.31704,
+        "fib_0.236": 1.31823,
+        "fib_0.382": 1.31897,
+        "fib_0.5": 1.31956,
+        "fib_0.618": 1.32015,
+        "fib_0.786": 1.321,
+        "fib_1.0": 1.32208
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 37,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.33728,
+      "Exit_Price": 1.33728,
+      "SL": 1.33728,
+      "TP": 1.3324,
+      "Position_Size": 0.4098360655737709,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 12.19999999999999,
+      "Reward_Pips": 36.59999999999997,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.33708,
+      "Zone_Low": 1.33586,
+      "Win/Lose": "LOSS",
+      "Trade ID": 37,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.33728,
+        "fib_0.236": 1.33613,
+        "fib_0.382": 1.33542,
+        "fib_0.5": 1.33484,
+        "fib_0.618": 1.33426,
+        "fib_0.786": 1.33344,
+        "fib_1.0": 1.3324
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 38,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.34734,
+      "Exit_Price": 1.34734,
+      "SL": 1.34734,
+      "TP": 1.35166,
+      "Position_Size": 0.4629629629629759,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 10.7999999999997,
+      "Reward_Pips": 32.3999999999991,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.34848,
+      "Zone_Low": 1.34754,
+      "Win/Lose": "LOSS",
+      "Trade ID": 38,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.34734,
+        "fib_0.236": 1.34836,
+        "fib_0.382": 1.34899,
+        "fib_0.5": 1.3495,
+        "fib_0.618": 1.35001,
+        "fib_0.786": 1.35074,
+        "fib_1.0": 1.35166
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 39,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "SELL",
+      "Entry Price": 1.35116,
+      "Exit_Price": 1.34608,
+      "SL": 1.35116,
+      "TP": 1.34608,
+      "Position_Size": 0.3937007874016113,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": 149.0,
+      "Risk_Pips": 12.69999999999882,
+      "Reward_Pips": 38.09999999999647,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Take Profit Hit",
+      "Zone_Type": "supply",
+      "Zone_High": 1.35096,
+      "Zone_Low": 1.34979,
+      "Win/Lose": "WIN",
+      "Trade ID": 39,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.35116,
+        "fib_0.236": 1.34996,
+        "fib_0.382": 1.34922,
+        "fib_0.5": 1.34862,
+        "fib_0.618": 1.34802,
+        "fib_0.786": 1.34717,
+        "fib_1.0": 1.34608
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": false,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected",
+          "No significant Fibonacci confluence"
+        ]
+      }
+    },
+    {
+      "Trade_ID": 40,
+      "Pair": "GBP/USD",
+      "Entry DateTime": "1970-01-01 00:00:00",
+      "Close DateTime": "1970-01-01 00:00:00",
+      "Buy/Sell": "BUY",
+      "Entry Price": 1.34852,
+      "Exit_Price": 1.34852,
+      "SL": 1.34852,
+      "TP": 1.35216,
+      "Position_Size": 0.5494505494505697,
+      "Risk_Amount_USD": 50.0,
+      "Potential_Loss_USD": 50.0,
+      "Potential_Reward_USD": 150.0,
+      "PnL": -51.0,
+      "Risk_Pips": 9.099999999999664,
+      "Reward_Pips": 27.29999999999899,
+      "RR_Ratio": 3,
+      "Exit_Reason": "Stop Loss Hit",
+      "Zone_Type": "demand",
+      "Zone_High": 1.34945,
+      "Zone_Low": 1.34872,
+      "Win/Lose": "LOSS",
+      "Trade ID": 40,
+      "pair": "GBP/USD",
+      "fibonacci_levels": {
+        "fib_0.0": 1.34852,
+        "fib_0.236": 1.34938,
+        "fib_0.382": 1.34991,
+        "fib_0.5": 1.35034,
+        "fib_0.618": 1.35077,
+        "fib_0.786": 1.35138,
+        "fib_1.0": 1.35216
+      },
+      "fibonacci_conditions": {
+        "entry_at_fib_level": true,
+        "entry_level": "fib_0.0",
+        "fib_confluence": true,
+        "golden_ratio_respect": false,
+        "conditions_met": [
+          "Entry at fib_0.0 level",
+          "Fibonacci confluence detected"
+        ],
+        "conditions_not_met": [
+          "Golden ratio (0.618) not respected"
+        ]
+      }
+    }
+  ]
+}

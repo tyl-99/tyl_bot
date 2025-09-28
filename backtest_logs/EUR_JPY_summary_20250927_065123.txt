@@ -1,0 +1,59 @@
+
+EUR/JPY PURE STRATEGY BACKTEST RESULTS
+================================================================================
+Strategy: EURJPYStrategy
+
+PURE STRATEGY TESTING:
+   Processed Bars: 7,842
+   Total Available Bars: 8,091
+   Processing Rate: 96.9% of bars
+   Trading Costs: ZERO (Pure strategy performance)
+
+TRADING RESULTS:
+   Total Trades: 34
+   Win Rate: 55.88%
+   Winning Trades:
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-01-09 07:00, Exit: 2025-01-09 07:30, SL: 5.8 pips, TP: 17.4 pips, Entry Volume: 5306, Position Volume: 1.72 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-01-09 09:30, Exit: 2025-01-09 11:00, SL: 6.2 pips, TP: 18.6 pips, Entry Volume: 4808, Position Volume: 1.61 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-01-27 06:00, Exit: 2025-01-27 06:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 4298, Position Volume: 1.92 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-03-03 09:00, Exit: 2025-03-03 09:30, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 5696, Position Volume: 1.79 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-03-05 06:00, Exit: 2025-03-05 07:00, SL: 11.1 pips, TP: 33.3 pips, Entry Volume: 5451, Position Volume: 0.90 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-04-01 07:00, Exit: 2025-04-01 07:30, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 6731, Position Volume: 1.79 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-04-01 09:30, Exit: 2025-04-01 10:00, SL: 11.7 pips, TP: 35.1 pips, Entry Volume: 3934, Position Volume: 0.85 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-04-23 15:00, Exit: 2025-04-23 16:30, SL: 14.2 pips, TP: 42.6 pips, Entry Volume: 7973, Position Volume: 0.70 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-05-08 16:00, Exit: 2025-05-08 19:00, SL: 9.2 pips, TP: 27.6 pips, Entry Volume: 6284, Position Volume: 1.09 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-05-09 15:30, Exit: 2025-05-11 21:00, SL: 11.6 pips, TP: 34.8 pips, Entry Volume: 4624, Position Volume: 0.86 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-05-20 09:00, Exit: 2025-05-20 10:30, SL: 5.9 pips, TP: 17.7 pips, Entry Volume: 4303, Position Volume: 1.69 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-05-21 06:30, Exit: 2025-05-21 09:00, SL: 12.3 pips, TP: 36.9 pips, Entry Volume: 5180, Position Volume: 0.81 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-05-26 09:00, Exit: 2025-05-26 16:00, SL: 6.7 pips, TP: 20.1 pips, Entry Volume: 2425, Position Volume: 1.49 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-05-26 22:00, Exit: 2025-05-27 00:00, SL: 8.0 pips, TP: 24.0 pips, Entry Volume: 1845, Position Volume: 1.25 lots)
+     - Trade(BUY EUR/JPY, PnL: $+300.00, Entry: 2025-06-03 09:30, Exit: 2025-06-03 13:30, SL: 12.6 pips, TP: 37.8 pips, Entry Volume: 3654, Position Volume: 0.79 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-07-17 09:00, Exit: 2025-07-17 11:30, SL: 10.4 pips, TP: 31.2 pips, Entry Volume: 2989, Position Volume: 0.96 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-07-21 15:00, Exit: 2025-07-21 16:00, SL: 7.2 pips, TP: 21.6 pips, Entry Volume: 4963, Position Volume: 1.39 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-08-04 22:30, Exit: 2025-08-04 23:00, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 1463, Position Volume: 2.08 lots)
+     - Trade(SELL EUR/JPY, PnL: $+300.00, Entry: 2025-08-27 06:00, Exit: 2025-08-27 07:30, SL: 8.3 pips, TP: 24.9 pips, Entry Volume: 3682, Position Volume: 1.20 lots)
+   Losing Trades:
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-01-09 06:00, Exit: 2025-01-09 06:30, SL: 6.3 pips, TP: 18.9 pips, Entry Volume: 4515, Position Volume: 1.59 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-01-09 06:30, Exit: 2025-01-09 07:00, SL: 8.4 pips, TP: 25.2 pips, Entry Volume: 4019, Position Volume: 1.19 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-01-10 06:00, Exit: 2025-01-10 07:30, SL: 10.1 pips, TP: 30.3 pips, Entry Volume: 3339, Position Volume: 0.99 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-01-29 06:00, Exit: 2025-01-29 06:30, SL: 11.1 pips, TP: 33.3 pips, Entry Volume: 4437, Position Volume: 0.90 lots)
+     - Trade(BUY EUR/JPY, PnL: $-100.00, Entry: 2025-03-04 07:00, Exit: 2025-03-04 07:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 7418, Position Volume: 1.92 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-03-27 09:00, Exit: 2025-03-27 09:30, SL: 12.4 pips, TP: 37.2 pips, Entry Volume: 5866, Position Volume: 0.81 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-04-01 06:00, Exit: 2025-04-01 06:30, SL: 9.8 pips, TP: 29.4 pips, Entry Volume: 5197, Position Volume: 1.02 lots)
+     - Trade(BUY EUR/JPY, PnL: $-100.00, Entry: 2025-05-08 15:00, Exit: 2025-05-08 15:30, SL: 12.6 pips, TP: 37.8 pips, Entry Volume: 7212, Position Volume: 0.79 lots)
+     - Trade(BUY EUR/JPY, PnL: $-100.00, Entry: 2025-06-03 07:00, Exit: 2025-06-03 08:00, SL: 15.3 pips, TP: 45.9 pips, Entry Volume: 4792, Position Volume: 0.65 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-06-05 22:00, Exit: 2025-06-06 00:00, SL: 14.4 pips, TP: 43.2 pips, Entry Volume: 1692, Position Volume: 0.69 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-07-07 22:30, Exit: 2025-07-07 23:00, SL: 5.8 pips, TP: 17.4 pips, Entry Volume: 2494, Position Volume: 1.72 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-08-20 15:00, Exit: 2025-08-20 19:30, SL: 11.1 pips, TP: 33.3 pips, Entry Volume: 4633, Position Volume: 0.90 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-08-21 06:00, Exit: 2025-08-21 07:00, SL: 9.1 pips, TP: 27.3 pips, Entry Volume: 4365, Position Volume: 1.10 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-08-26 09:00, Exit: 2025-08-26 09:30, SL: 8.9 pips, TP: 26.7 pips, Entry Volume: 4299, Position Volume: 1.12 lots)
+     - Trade(SELL EUR/JPY, PnL: $-100.00, Entry: 2025-08-26 15:30, Exit: 2025-08-27 00:00, SL: 6.9 pips, TP: 20.7 pips, Entry Volume: 3766, Position Volume: 1.45 lots)
+
+TRADING SUMMARY:
+   Starting Balance: $1,000.00
+   Final Balance: $5,200.00
+   Total PnL: $4,200.00
+   Peak Balance: $5,300.00
+   Lowest Balance: $800.00
+   Max Drawdown: -20.00%
+   Overall R:R Ratio: 2.61:1

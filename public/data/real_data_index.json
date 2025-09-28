@@ -1,0 +1,10 @@
+{
+  "real_trades_path": "data/real_trades_data.json",
+  "real_summary_path": "data/real_summary_stats.json",
+  "forex_data_path": "data/forex_data.json",
+  "processed_at": "2025-09-01T14:08:04.500809",
+  "total_trades": 155,
+  "total_pairs": 6,
+  "account_balance": 612.42,
+  "account_equity": 0.0
+}

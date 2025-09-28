@@ -1,0 +1,55 @@
+
+EUR/USD PURE STRATEGY BACKTEST RESULTS
+================================================================================
+Strategy: EURUSDSTRATEGY
+
+PURE STRATEGY TESTING:
+   Processed Bars: 7,841
+   Total Available Bars: 8,090
+   Processing Rate: 96.9% of bars
+   Trading Costs: ZERO (Pure strategy performance)
+
+TRADING RESULTS:
+   Total Trades: 30
+   Win Rate: 53.33%
+   Winning Trades:
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-01-09 07:00, Exit: 2025-01-09 08:00, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 2974, Position Volume: 1.89 lots)
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-01-09 15:00, Exit: 2025-01-09 16:30, SL: 4.3 pips, TP: 12.9 pips, Entry Volume: 2523, Position Volume: 2.33 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-01-22 08:00, Exit: 2025-01-22 09:00, SL: 6.6 pips, TP: 19.8 pips, Entry Volume: 3739, Position Volume: 1.52 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-03-03 08:30, Exit: 2025-03-03 09:00, SL: 4.4 pips, TP: 13.2 pips, Entry Volume: 2699, Position Volume: 2.27 lots)
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-03-10 10:30, Exit: 2025-03-10 11:00, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 3066, Position Volume: 2.17 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-04-02 07:30, Exit: 2025-04-02 12:30, SL: 8.4 pips, TP: 25.2 pips, Entry Volume: 2026, Position Volume: 1.19 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-04-09 10:30, Exit: 2025-04-09 12:00, SL: 13.9 pips, TP: 41.7 pips, Entry Volume: 4710, Position Volume: 0.72 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-04-18 08:30, Exit: 2025-04-18 12:30, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 4510, Position Volume: 2.04 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-04-28 16:00, Exit: 2025-04-28 16:30, SL: 6.9 pips, TP: 20.7 pips, Entry Volume: 3140, Position Volume: 1.45 lots)
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-04-29 16:00, Exit: 2025-04-29 17:30, SL: 7.7 pips, TP: 23.1 pips, Entry Volume: 2913, Position Volume: 1.30 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-05-08 07:00, Exit: 2025-05-08 08:00, SL: 5.1 pips, TP: 15.3 pips, Entry Volume: 3688, Position Volume: 1.96 lots)
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-05-19 15:00, Exit: 2025-05-19 16:00, SL: 7.2 pips, TP: 21.6 pips, Entry Volume: 3051, Position Volume: 1.39 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-05-30 15:00, Exit: 2025-06-02 00:00, SL: 7.7 pips, TP: 23.1 pips, Entry Volume: 4318, Position Volume: 1.30 lots)
+     - Trade(BUY EUR/USD, PnL: $+300.00, Entry: 2025-06-11 08:00, Exit: 2025-06-11 12:30, SL: 6.0 pips, TP: 18.0 pips, Entry Volume: 1906, Position Volume: 1.67 lots)
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-07-08 11:00, Exit: 2025-07-08 13:00, SL: 9.4 pips, TP: 28.2 pips, Entry Volume: 1623, Position Volume: 1.06 lots)
+     - Trade(SELL EUR/USD, PnL: $+300.00, Entry: 2025-07-29 10:30, Exit: 2025-07-30 12:00, SL: 20.1 pips, TP: 60.3 pips, Entry Volume: 1629, Position Volume: 0.50 lots)
+   Losing Trades:
+     - Trade(SELL EUR/USD, PnL: $-100.00, Entry: 2025-01-09 10:30, Exit: 2025-01-09 13:00, SL: 5.5 pips, TP: 16.5 pips, Entry Volume: 2863, Position Volume: 1.82 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-01-23 10:30, Exit: 2025-01-23 11:30, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 2022, Position Volume: 2.08 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-01-29 07:30, Exit: 2025-01-29 09:30, SL: 8.5 pips, TP: 25.5 pips, Entry Volume: 2713, Position Volume: 1.18 lots)
+     - Trade(SELL EUR/USD, PnL: $-100.00, Entry: 2025-02-25 07:30, Exit: 2025-02-25 08:00, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 3000, Position Volume: 2.08 lots)
+     - Trade(SELL EUR/USD, PnL: $-100.00, Entry: 2025-03-10 11:00, Exit: 2025-03-11 06:00, SL: 14.3 pips, TP: 42.9 pips, Entry Volume: 5217, Position Volume: 0.70 lots)
+     - Trade(SELL EUR/USD, PnL: $-100.00, Entry: 2025-03-28 15:30, Exit: 2025-03-28 16:00, SL: 7.9 pips, TP: 23.7 pips, Entry Volume: 3359, Position Volume: 1.27 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-04-09 08:30, Exit: 2025-04-09 09:00, SL: 8.0 pips, TP: 24.0 pips, Entry Volume: 6002, Position Volume: 1.25 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-04-10 07:30, Exit: 2025-04-10 08:00, SL: 6.7 pips, TP: 20.1 pips, Entry Volume: 5686, Position Volume: 1.49 lots)
+     - Trade(SELL EUR/USD, PnL: $-100.00, Entry: 2025-05-27 15:30, Exit: 2025-05-27 16:00, SL: 7.0 pips, TP: 21.0 pips, Entry Volume: 2706, Position Volume: 1.43 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-06-16 15:00, Exit: 2025-06-16 15:30, SL: 7.8 pips, TP: 23.4 pips, Entry Volume: 2883, Position Volume: 1.28 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-07-09 07:30, Exit: 2025-07-09 08:00, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 2649, Position Volume: 1.92 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-07-09 15:00, Exit: 2025-07-09 16:00, SL: 4.3 pips, TP: 12.9 pips, Entry Volume: 2028, Position Volume: 2.33 lots)
+     - Trade(SELL EUR/USD, PnL: $-100.00, Entry: 2025-07-23 15:30, Exit: 2025-07-23 16:00, SL: 7.3 pips, TP: 21.9 pips, Entry Volume: 3287, Position Volume: 1.37 lots)
+     - Trade(BUY EUR/USD, PnL: $-100.00, Entry: 2025-08-01 08:30, Exit: 2025-08-01 09:00, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 2059, Position Volume: 2.04 lots)
+
+TRADING SUMMARY:
+   Starting Balance: $1,000.00
+   Final Balance: $4,400.00
+   Total PnL: $3,400.00
+   Peak Balance: $4,500.00
+   Lowest Balance: $1,000.00
+   Max Drawdown: -16.67%
+   Overall R:R Ratio: 3.32:1

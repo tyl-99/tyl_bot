@@ -1,0 +1,887 @@
+2025-09-07 08:43:10,119 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-07 08:43:10,120 - INFO - 🎯 Fetching 6 months of recent data: 2025-01-01 to 2025-09-01
+2025-09-07 08:43:10,121 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-07 08:43:10,121 - INFO - 
+2025-09-07 08:43:10,122 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-07 08:43:10,122 - INFO -    EUR/USD: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:43:10,122 - INFO -    EUR/GBP: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:43:10,123 - INFO -    GBP/USD: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:43:10,123 - INFO -    USD/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:43:10,123 - INFO -    EUR/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:43:10,123 - INFO -    GBP/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:43:10,124 - INFO - 
+2025-09-07 08:43:10,124 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-07 08:43:10,124 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-07 08:43:10,124 - INFO -    New native approach: ~6,480 total bars
+2025-09-07 08:43:10,124 - INFO -    Data reduction: 87.5% less data to download!
+2025-09-07 08:43:10,125 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-07 08:43:10,125 - INFO - 
+2025-09-07 08:43:10,125 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-07 08:43:10,125 - INFO - 🔧 Platform: nt
+2025-09-07 08:43:10,125 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\Trader
+2025-09-07 08:43:10,125 - INFO - ✅ All environment variables present
+2025-09-07 08:43:10,126 - INFO - 
+2025-09-07 08:43:10,126 - INFO - 🚀 Starting data fetch...
+2025-09-07 08:43:10,126 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-07 08:43:10,126 - INFO - 📅 Period: 2025-01-01 to 2025-09-01
+2025-09-07 08:43:10,126 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-07 08:43:10,126 - INFO -    EUR/USD: H4
+2025-09-07 08:43:10,127 - INFO -    EUR/GBP: H4
+2025-09-07 08:43:10,127 - INFO -    GBP/USD: H4
+2025-09-07 08:43:10,127 - INFO -    USD/JPY: H4
+2025-09-07 08:43:10,127 - INFO -    EUR/JPY: H4
+2025-09-07 08:43:10,127 - INFO -    GBP/JPY: H4
+2025-09-07 08:43:10,127 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-07 08:43:10,149 - INFO - ✅ Connected to cTrader server
+2025-09-07 08:43:10,149 - INFO - 🔐 Authenticating application...
+2025-09-07 08:43:11,286 - INFO - ✅ Application authenticated
+2025-09-07 08:43:11,287 - INFO - 🔐 Authenticating user...
+2025-09-07 08:43:12,263 - INFO - ✅ User authenticated successfully
+2025-09-07 08:43:12,264 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-07 08:43:12,264 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-07 08:43:12,265 - INFO - 📊 EUR/USD using H4 timeframe
+2025-09-07 08:43:12,265 - INFO - 📊 EUR/USD: Requesting H4 data directly
+2025-09-07 08:43:13,289 - ERROR - ❌ Error processing data for EUR/USD: trendbar
+2025-09-07 08:43:13,798 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-07 08:43:13,800 - INFO - 📊 EUR/GBP using H4 timeframe
+2025-09-07 08:43:13,802 - INFO - 📊 EUR/GBP: Requesting H4 data directly
+2025-09-07 08:43:14,264 - ERROR - ❌ Error processing data for EUR/GBP: trendbar
+2025-09-07 08:43:14,779 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-07 08:43:14,780 - INFO - 📊 GBP/USD using H4 timeframe
+2025-09-07 08:43:14,780 - INFO - 📊 GBP/USD: Requesting H4 data directly
+2025-09-07 08:43:15,261 - ERROR - ❌ Error processing data for GBP/USD: trendbar
+2025-09-07 08:43:15,776 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-07 08:43:15,778 - INFO - 📊 USD/JPY using H4 timeframe
+2025-09-07 08:43:15,779 - INFO - 📊 USD/JPY: Requesting H4 data directly
+2025-09-07 08:43:16,258 - ERROR - ❌ Error processing data for USD/JPY: trendbar
+2025-09-07 08:43:16,769 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-07 08:43:16,771 - INFO - 📊 EUR/JPY using H4 timeframe
+2025-09-07 08:43:16,771 - INFO - 📊 EUR/JPY: Requesting H4 data directly
+2025-09-07 08:43:17,266 - ERROR - ❌ Error processing data for EUR/JPY: trendbar
+2025-09-07 08:43:17,773 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-07 08:43:17,775 - INFO - 📊 GBP/JPY using H4 timeframe
+2025-09-07 08:43:17,778 - INFO - 📊 GBP/JPY: Requesting H4 data directly
+2025-09-07 08:43:18,266 - ERROR - ❌ Error processing data for GBP/JPY: trendbar
+2025-09-07 08:43:18,782 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-07 08:43:19,195 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-07 08:43:19,195 - INFO - ==================================================
+2025-09-07 08:43:19,196 - WARNING - ⚠️ No data to save for EUR/USD
+2025-09-07 08:43:19,196 - WARNING - ⚠️ No data to save for EUR/GBP
+2025-09-07 08:43:19,196 - WARNING - ⚠️ No data to save for GBP/USD
+2025-09-07 08:43:19,196 - WARNING - ⚠️ No data to save for USD/JPY
+2025-09-07 08:43:19,197 - WARNING - ⚠️ No data to save for EUR/JPY
+2025-09-07 08:43:19,197 - WARNING - ⚠️ No data to save for GBP/JPY
+2025-09-07 08:43:19,198 - INFO - ==================================================
+2025-09-07 08:43:19,200 - ERROR - ❌ Error saving to Excel: At least one sheet must be visible
+2025-09-07 08:43:19,201 - ERROR - 💡 Try installing openpyxl: pip install openpyxl
+2025-09-07 08:43:19,201 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-09-07 08:44:02,061 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-07 08:44:02,062 - INFO - 🎯 Fetching 6 months of recent data: 2025-01-01 to 2025-09-01
+2025-09-07 08:44:02,062 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-07 08:44:02,062 - INFO - 
+2025-09-07 08:44:02,062 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-07 08:44:02,062 - INFO -    EUR/USD: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:02,062 - INFO -    EUR/GBP: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:02,062 - INFO -    GBP/USD: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:02,063 - INFO -    USD/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:02,063 - INFO -    EUR/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:02,063 - INFO -    GBP/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:02,063 - INFO - 
+2025-09-07 08:44:02,063 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-07 08:44:02,063 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-07 08:44:02,063 - INFO -    New native approach: ~6,480 total bars
+2025-09-07 08:44:02,064 - INFO -    Data reduction: 87.5% less data to download!
+2025-09-07 08:44:02,064 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-07 08:44:02,064 - INFO - 
+2025-09-07 08:44:02,064 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-07 08:44:02,064 - INFO - 🔧 Platform: nt
+2025-09-07 08:44:02,064 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\Trader
+2025-09-07 08:44:02,064 - INFO - ✅ All environment variables present
+2025-09-07 08:44:02,064 - INFO - 
+2025-09-07 08:44:02,065 - INFO - 🚀 Starting data fetch...
+2025-09-07 08:44:02,065 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-07 08:44:02,065 - INFO - 📅 Period: 2025-01-01 to 2025-09-01
+2025-09-07 08:44:02,065 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-07 08:44:02,065 - INFO -    EUR/USD: H4
+2025-09-07 08:44:02,065 - INFO -    EUR/GBP: H4
+2025-09-07 08:44:02,065 - INFO -    GBP/USD: H4
+2025-09-07 08:44:02,066 - INFO -    USD/JPY: H4
+2025-09-07 08:44:02,066 - INFO -    EUR/JPY: H4
+2025-09-07 08:44:02,066 - INFO -    GBP/JPY: H4
+2025-09-07 08:44:02,066 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-07 08:44:02,085 - INFO - ✅ Connected to cTrader server
+2025-09-07 08:44:02,085 - INFO - 🔐 Authenticating application...
+2025-09-07 08:44:03,217 - INFO - ✅ Application authenticated
+2025-09-07 08:44:03,218 - INFO - 🔐 Authenticating user...
+2025-09-07 08:44:04,211 - INFO - ✅ User authenticated successfully
+2025-09-07 08:44:04,214 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-07 08:44:04,215 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-07 08:44:04,216 - INFO - 📊 EUR/USD using H4 timeframe
+2025-09-07 08:44:04,218 - INFO - 📊 EUR/USD: Requesting H4 data directly
+2025-09-07 08:44:05,232 - ERROR - ❌ Error processing data for EUR/USD: trendbar
+2025-09-07 08:44:05,734 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-07 08:44:05,736 - INFO - 📊 EUR/GBP using H4 timeframe
+2025-09-07 08:44:05,738 - INFO - 📊 EUR/GBP: Requesting H4 data directly
+2025-09-07 08:44:06,193 - ERROR - ❌ Error processing data for EUR/GBP: trendbar
+2025-09-07 08:44:06,709 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-07 08:44:06,709 - INFO - 📊 GBP/USD using H4 timeframe
+2025-09-07 08:44:06,709 - INFO - 📊 GBP/USD: Requesting H4 data directly
+2025-09-07 08:44:07,203 - ERROR - ❌ Error processing data for GBP/USD: trendbar
+2025-09-07 08:44:07,720 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-07 08:44:07,722 - INFO - 📊 USD/JPY using H4 timeframe
+2025-09-07 08:44:07,724 - INFO - 📊 USD/JPY: Requesting H4 data directly
+2025-09-07 08:44:08,199 - ERROR - ❌ Error processing data for USD/JPY: trendbar
+2025-09-07 08:44:08,716 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-07 08:44:08,718 - INFO - 📊 EUR/JPY using H4 timeframe
+2025-09-07 08:44:08,719 - INFO - 📊 EUR/JPY: Requesting H4 data directly
+2025-09-07 08:44:09,198 - ERROR - ❌ Error processing data for EUR/JPY: trendbar
+2025-09-07 08:44:09,699 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-07 08:44:09,700 - INFO - 📊 GBP/JPY using H4 timeframe
+2025-09-07 08:44:09,702 - INFO - 📊 GBP/JPY: Requesting H4 data directly
+2025-09-07 08:44:10,189 - ERROR - ❌ Error processing data for GBP/JPY: trendbar
+2025-09-07 08:44:10,698 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-07 08:44:11,018 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-07 08:44:11,019 - INFO - ==================================================
+2025-09-07 08:44:11,019 - WARNING - ⚠️ No data to save for EUR/USD
+2025-09-07 08:44:11,019 - WARNING - ⚠️ No data to save for EUR/GBP
+2025-09-07 08:44:11,020 - WARNING - ⚠️ No data to save for GBP/USD
+2025-09-07 08:44:11,020 - WARNING - ⚠️ No data to save for USD/JPY
+2025-09-07 08:44:11,020 - WARNING - ⚠️ No data to save for EUR/JPY
+2025-09-07 08:44:11,020 - WARNING - ⚠️ No data to save for GBP/JPY
+2025-09-07 08:44:11,020 - INFO - ==================================================
+2025-09-07 08:44:11,023 - ERROR - ❌ Error saving to Excel: At least one sheet must be visible
+2025-09-07 08:44:11,023 - ERROR - 💡 Try installing openpyxl: pip install openpyxl
+2025-09-07 08:44:11,023 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-09-07 08:44:39,909 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-07 08:44:39,910 - INFO - 🎯 Fetching 6 months of recent data: 2025-01-01 to 2025-09-01
+2025-09-07 08:44:39,910 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-07 08:44:39,910 - INFO - 
+2025-09-07 08:44:39,910 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-07 08:44:39,910 - INFO -    EUR/USD: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:39,910 - INFO -    EUR/GBP: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:39,911 - INFO -    GBP/USD: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:39,911 - INFO -    USD/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:39,911 - INFO -    EUR/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:39,911 - INFO -    GBP/JPY: H4 NATIVE (~1,080 bars, 87.5% less data)
+2025-09-07 08:44:39,912 - INFO - 
+2025-09-07 08:44:39,912 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-07 08:44:39,912 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-07 08:44:39,912 - INFO -    New native approach: ~6,480 total bars
+2025-09-07 08:44:39,912 - INFO -    Data reduction: 87.5% less data to download!
+2025-09-07 08:44:39,912 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-07 08:44:39,912 - INFO - 
+2025-09-07 08:44:39,913 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-07 08:44:39,913 - INFO - 🔧 Platform: nt
+2025-09-07 08:44:39,913 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\Trader
+2025-09-07 08:44:39,913 - INFO - ✅ All environment variables present
+2025-09-07 08:44:39,913 - INFO - 
+2025-09-07 08:44:39,913 - INFO - 🚀 Starting data fetch...
+2025-09-07 08:44:39,913 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-07 08:44:39,913 - INFO - 📅 Period: 2025-01-01 to 2025-09-01
+2025-09-07 08:44:39,913 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-07 08:44:39,913 - INFO -    EUR/USD: H4
+2025-09-07 08:44:39,913 - INFO -    EUR/GBP: H4
+2025-09-07 08:44:39,913 - INFO -    GBP/USD: H4
+2025-09-07 08:44:39,913 - INFO -    USD/JPY: H4
+2025-09-07 08:44:39,914 - INFO -    EUR/JPY: H4
+2025-09-07 08:44:39,914 - INFO -    GBP/JPY: H4
+2025-09-07 08:44:39,914 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-07 08:44:39,926 - INFO - ✅ Connected to cTrader server
+2025-09-07 08:44:39,926 - INFO - 🔐 Authenticating application...
+2025-09-07 08:44:41,063 - INFO - ✅ Application authenticated
+2025-09-07 08:44:41,064 - INFO - 🔐 Authenticating user...
+2025-09-07 08:44:42,063 - INFO - ✅ User authenticated successfully
+2025-09-07 08:44:42,064 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-07 08:44:42,065 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-07 08:44:42,065 - INFO - 📊 EUR/USD using H4 timeframe
+2025-09-07 08:44:42,066 - INFO - 📊 EUR/USD: Requesting H4 data directly
+2025-09-07 08:44:43,097 - INFO - 📊 EUR/USD using H4 timeframe
+2025-09-07 08:44:43,098 - INFO - ✅ EUR/USD: 1033 H4 bars loaded NATIVELY
+2025-09-07 08:44:43,100 - INFO -    📅 Date range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:43,101 - INFO -    📊 Avg volume: 17,586
+2025-09-07 08:44:43,101 - INFO -    🕯️ Avg range: 0.00360
+2025-09-07 08:44:43,102 - INFO -    ⚡ Efficiency: 87.5% less data than M30 (8,264 M30 equivalent)
+2025-09-07 08:44:43,612 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-07 08:44:43,612 - INFO - 📊 EUR/GBP using H4 timeframe
+2025-09-07 08:44:43,613 - INFO - 📊 EUR/GBP: Requesting H4 data directly
+2025-09-07 08:44:44,110 - INFO - 📊 EUR/GBP using H4 timeframe
+2025-09-07 08:44:44,111 - INFO - ✅ EUR/GBP: 1033 H4 bars loaded NATIVELY
+2025-09-07 08:44:44,112 - INFO -    📅 Date range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:44,113 - INFO -    📊 Avg volume: 14,642
+2025-09-07 08:44:44,114 - INFO -    🕯️ Avg range: 0.00169
+2025-09-07 08:44:44,115 - INFO -    ⚡ Efficiency: 87.5% less data than M30 (8,264 M30 equivalent)
+2025-09-07 08:44:44,625 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-07 08:44:44,627 - INFO - 📊 GBP/USD using H4 timeframe
+2025-09-07 08:44:44,630 - INFO - 📊 GBP/USD: Requesting H4 data directly
+2025-09-07 08:44:45,108 - INFO - 📊 GBP/USD using H4 timeframe
+2025-09-07 08:44:45,109 - INFO - ✅ GBP/USD: 1033 H4 bars loaded NATIVELY
+2025-09-07 08:44:45,112 - INFO -    📅 Date range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:45,114 - INFO -    📊 Avg volume: 19,902
+2025-09-07 08:44:45,115 - INFO -    🕯️ Avg range: 0.00380
+2025-09-07 08:44:45,117 - INFO -    ⚡ Efficiency: 87.5% less data than M30 (8,264 M30 equivalent)
+2025-09-07 08:44:45,622 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-07 08:44:45,623 - INFO - 📊 USD/JPY using H4 timeframe
+2025-09-07 08:44:45,623 - INFO - 📊 USD/JPY: Requesting H4 data directly
+2025-09-07 08:44:46,089 - INFO - 📊 USD/JPY using H4 timeframe
+2025-09-07 08:44:46,090 - INFO - ✅ USD/JPY: 1033 H4 bars loaded NATIVELY
+2025-09-07 08:44:46,093 - INFO -    📅 Date range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:46,093 - INFO -    📊 Avg volume: 25,665
+2025-09-07 08:44:46,093 - INFO -    🕯️ Avg range: 0.56698
+2025-09-07 08:44:46,093 - INFO -    ⚡ Efficiency: 87.5% less data than M30 (8,264 M30 equivalent)
+2025-09-07 08:44:46,605 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-07 08:44:46,606 - INFO - 📊 EUR/JPY using H4 timeframe
+2025-09-07 08:44:46,608 - INFO - 📊 EUR/JPY: Requesting H4 data directly
+2025-09-07 08:44:47,099 - INFO - 📊 EUR/JPY using H4 timeframe
+2025-09-07 08:44:47,099 - INFO - ✅ EUR/JPY: 1033 H4 bars loaded NATIVELY
+2025-09-07 08:44:47,100 - INFO -    📅 Date range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:47,100 - INFO -    📊 Avg volume: 33,268
+2025-09-07 08:44:47,100 - INFO -    🕯️ Avg range: 0.55433
+2025-09-07 08:44:47,100 - INFO -    ⚡ Efficiency: 87.5% less data than M30 (8,264 M30 equivalent)
+2025-09-07 08:44:47,602 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-07 08:44:47,604 - INFO - 📊 GBP/JPY using H4 timeframe
+2025-09-07 08:44:47,605 - INFO - 📊 GBP/JPY: Requesting H4 data directly
+2025-09-07 08:44:48,077 - INFO - 📊 GBP/JPY using H4 timeframe
+2025-09-07 08:44:48,077 - INFO - ✅ GBP/JPY: 1033 H4 bars loaded NATIVELY
+2025-09-07 08:44:48,078 - INFO -    📅 Date range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:48,078 - INFO -    📊 Avg volume: 35,646
+2025-09-07 08:44:48,079 - INFO -    🕯️ Avg range: 0.68861
+2025-09-07 08:44:48,079 - INFO -    ⚡ Efficiency: 87.5% less data than M30 (8,264 M30 equivalent)
+2025-09-07 08:44:48,582 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-07 08:44:49,033 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-07 08:44:49,034 - INFO - ==================================================
+2025-09-07 08:44:49,083 - INFO - 💾 EUR/USD → sheet 'EUR_USD'
+2025-09-07 08:44:49,084 - INFO -    📊 Bars: 1,033 H4 candles (8,264 M30 equivalent - 87.5% less data)
+2025-09-07 08:44:49,084 - INFO -    📅 Range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:49,085 - INFO -    🕯️ Avg Range: 0.00360
+2025-09-07 08:44:49,085 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-07 08:44:49,134 - INFO - 💾 EUR/GBP → sheet 'EUR_GBP'
+2025-09-07 08:44:49,134 - INFO -    📊 Bars: 1,033 H4 candles (8,264 M30 equivalent - 87.5% less data)
+2025-09-07 08:44:49,135 - INFO -    📅 Range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:49,135 - INFO -    🕯️ Avg Range: 0.00169
+2025-09-07 08:44:49,135 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-07 08:44:49,176 - INFO - 💾 GBP/USD → sheet 'GBP_USD'
+2025-09-07 08:44:49,176 - INFO -    📊 Bars: 1,033 H4 candles (8,264 M30 equivalent - 87.5% less data)
+2025-09-07 08:44:49,176 - INFO -    📅 Range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:49,177 - INFO -    🕯️ Avg Range: 0.00380
+2025-09-07 08:44:49,177 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-07 08:44:49,223 - INFO - 💾 USD/JPY → sheet 'USD_JPY'
+2025-09-07 08:44:49,223 - INFO -    📊 Bars: 1,033 H4 candles (8,264 M30 equivalent - 87.5% less data)
+2025-09-07 08:44:49,223 - INFO -    📅 Range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:49,224 - INFO -    🕯️ Avg Range: 0.56698
+2025-09-07 08:44:49,224 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-07 08:44:49,267 - INFO - 💾 EUR/JPY → sheet 'EUR_JPY'
+2025-09-07 08:44:49,268 - INFO -    📊 Bars: 1,033 H4 candles (8,264 M30 equivalent - 87.5% less data)
+2025-09-07 08:44:49,268 - INFO -    📅 Range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:49,269 - INFO -    🕯️ Avg Range: 0.55433
+2025-09-07 08:44:49,269 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-07 08:44:49,351 - INFO - 💾 GBP/JPY → sheet 'GBP_JPY'
+2025-09-07 08:44:49,352 - INFO -    📊 Bars: 1,033 H4 candles (8,264 M30 equivalent - 87.5% less data)
+2025-09-07 08:44:49,352 - INFO -    📅 Range: 2025-01-01 to 2025-08-31
+2025-09-07 08:44:49,353 - INFO -    🕯️ Avg Range: 0.68861
+2025-09-07 08:44:49,353 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-07 08:44:49,353 - INFO - ==================================================
+2025-09-07 08:44:50,271 - INFO - 🎉 DATA FETCH COMPLETED!
+2025-09-07 08:44:50,272 - INFO - 📂 File saved: backtest/data/forex_data1.xlsx
+2025-09-07 08:44:50,273 - INFO - 
+2025-09-07 08:44:50,274 - INFO - 📊 FETCH STATISTICS:
+2025-09-07 08:44:50,274 - INFO -    Total pairs: 6
+2025-09-07 08:44:50,275 - INFO -    Successful: 6
+2025-09-07 08:44:50,275 - INFO -    Failed: 0
+2025-09-07 08:44:50,275 - INFO -    Total bars: 6,198
+2025-09-07 08:44:50,276 - INFO -    Avg per pair: 1,033
+2025-09-07 08:44:50,276 - INFO - 
+2025-09-07 08:44:50,277 - INFO - 🔧 NEXT STEPS:
+2025-09-07 08:44:50,277 - INFO -    1. Run backtest engine with: TARGET_PAIR = 'EUR/USD'
+2025-09-07 08:44:50,277 - INFO -    2. Check backtest/data_fetch.log for detailed info
+2025-09-07 08:44:50,278 - INFO -    3. ✅ NATIVE TIMEFRAMES - No aggregation needed!
+2025-09-07 08:44:50,278 - INFO -    4. 🚀 Faster backtests with accurate broker data
+2025-09-07 08:44:50,278 - INFO - 
+2025-09-07 08:44:50,278 - INFO - ⚡ EFFICIENCY GAIN:
+2025-09-07 08:44:50,278 - INFO -    Old approach: 49,584 M30 bars
+2025-09-07 08:44:50,278 - INFO -    New approach: 6,198 native bars
+2025-09-07 08:44:50,279 - INFO -    Data reduction: 87.5% smaller!
+2025-09-07 08:44:50,279 - INFO -    🎯 Same accuracy, much faster!
+2025-09-07 08:44:50,280 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-09-10 20:40:02,218 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-10 20:40:02,219 - INFO - 🎯 Fetching 6 months of recent data: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:02,219 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-10 20:40:02,219 - INFO - 
+2025-09-10 20:40:02,220 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-10 20:40:02,220 - INFO -    EUR/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 20:40:02,220 - INFO -    EUR/GBP: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 20:40:02,220 - INFO -    GBP/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 20:40:02,220 - INFO -    USD/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 20:40:02,220 - INFO -    EUR/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 20:40:02,220 - INFO -    GBP/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 20:40:02,220 - INFO - 
+2025-09-10 20:40:02,220 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-10 20:40:02,220 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-10 20:40:02,220 - INFO -    New native approach: ~51,840 total bars
+2025-09-10 20:40:02,220 - INFO -    Data reduction: 0.0% less data to download!
+2025-09-10 20:40:02,220 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-10 20:40:02,221 - INFO - 
+2025-09-10 20:40:02,221 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-10 20:40:02,221 - INFO - 🔧 Platform: nt
+2025-09-10 20:40:02,221 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\Trader
+2025-09-10 20:40:02,221 - INFO - ✅ All environment variables present
+2025-09-10 20:40:02,222 - INFO - 
+2025-09-10 20:40:02,222 - INFO - 🚀 Starting data fetch...
+2025-09-10 20:40:02,222 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-10 20:40:02,223 - INFO - 📅 Period: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:02,223 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-10 20:40:02,223 - INFO -    EUR/USD: M30
+2025-09-10 20:40:02,223 - INFO -    EUR/GBP: M30
+2025-09-10 20:40:02,224 - INFO -    GBP/USD: M30
+2025-09-10 20:40:02,224 - INFO -    USD/JPY: M30
+2025-09-10 20:40:02,224 - INFO -    EUR/JPY: M30
+2025-09-10 20:40:02,224 - INFO -    GBP/JPY: M30
+2025-09-10 20:40:02,225 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-10 20:40:02,353 - INFO - ✅ Connected to cTrader server
+2025-09-10 20:40:02,353 - INFO - 🔐 Authenticating application...
+2025-09-10 20:40:03,491 - INFO - ✅ Application authenticated
+2025-09-10 20:40:03,493 - INFO - 🔐 Authenticating user...
+2025-09-10 20:40:04,503 - INFO - ✅ User authenticated successfully
+2025-09-10 20:40:04,504 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-10 20:40:04,506 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-10 20:40:04,507 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-10 20:40:04,509 - INFO - 📊 EUR/USD: Requesting M30 data directly
+2025-09-10 20:40:05,857 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-10 20:40:05,858 - INFO - ✅ EUR/USD: 8090 M30 bars loaded NATIVELY
+2025-09-10 20:40:05,866 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:05,868 - INFO -    📊 Avg volume: 2,245
+2025-09-10 20:40:05,870 - INFO -    🕯️ Avg range: 0.00121
+2025-09-10 20:40:05,871 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 20:40:06,389 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-10 20:40:06,390 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-10 20:40:06,392 - INFO - 📊 EUR/GBP: Requesting M30 data directly
+2025-09-10 20:40:07,764 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-10 20:40:07,764 - INFO - ✅ EUR/GBP: 8091 M30 bars loaded NATIVELY
+2025-09-10 20:40:07,765 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:07,765 - INFO -    📊 Avg volume: 1,869
+2025-09-10 20:40:07,765 - INFO -    🕯️ Avg range: 0.00059
+2025-09-10 20:40:07,765 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 20:40:08,279 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-10 20:40:08,279 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-10 20:40:08,279 - INFO - 📊 GBP/USD: Requesting M30 data directly
+2025-09-10 20:40:08,771 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-10 20:40:08,772 - INFO - ✅ GBP/USD: 8091 M30 bars loaded NATIVELY
+2025-09-10 20:40:08,772 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:08,773 - INFO -    📊 Avg volume: 2,541
+2025-09-10 20:40:08,773 - INFO -    🕯️ Avg range: 0.00129
+2025-09-10 20:40:08,773 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 20:40:09,288 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-10 20:40:09,290 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-10 20:40:09,291 - INFO - 📊 USD/JPY: Requesting M30 data directly
+2025-09-10 20:40:09,769 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-10 20:40:09,769 - INFO - ✅ USD/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-10 20:40:09,770 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:09,770 - INFO -    📊 Avg volume: 3,276
+2025-09-10 20:40:09,770 - INFO -    🕯️ Avg range: 0.19104
+2025-09-10 20:40:09,770 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 20:40:10,280 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-10 20:40:10,282 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-10 20:40:10,283 - INFO - 📊 EUR/JPY: Requesting M30 data directly
+2025-09-10 20:40:10,765 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-10 20:40:10,765 - INFO - ✅ EUR/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-10 20:40:10,766 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:10,767 - INFO -    📊 Avg volume: 4,247
+2025-09-10 20:40:10,767 - INFO -    🕯️ Avg range: 0.19377
+2025-09-10 20:40:10,768 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 20:40:11,279 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-10 20:40:11,281 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-10 20:40:11,282 - INFO - 📊 GBP/JPY: Requesting M30 data directly
+2025-09-10 20:40:11,820 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-10 20:40:11,821 - INFO - ✅ GBP/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-10 20:40:11,821 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:11,822 - INFO -    📊 Avg volume: 4,551
+2025-09-10 20:40:11,822 - INFO -    🕯️ Avg range: 0.24047
+2025-09-10 20:40:11,822 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 20:40:12,336 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-10 20:40:12,778 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-10 20:40:12,778 - INFO - ==================================================
+2025-09-10 20:40:13,163 - INFO - 💾 EUR/USD → sheet 'EUR_USD'
+2025-09-10 20:40:13,163 - INFO -    📊 Bars: 8,090 M30 candles (M30 baseline)
+2025-09-10 20:40:13,163 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:13,164 - INFO -    🕯️ Avg Range: 0.00121
+2025-09-10 20:40:13,164 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 20:40:13,570 - INFO - 💾 EUR/GBP → sheet 'EUR_GBP'
+2025-09-10 20:40:13,570 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 20:40:13,570 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:13,571 - INFO -    🕯️ Avg Range: 0.00059
+2025-09-10 20:40:13,571 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 20:40:13,932 - INFO - 💾 GBP/USD → sheet 'GBP_USD'
+2025-09-10 20:40:13,932 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 20:40:13,932 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:13,932 - INFO -    🕯️ Avg Range: 0.00129
+2025-09-10 20:40:13,932 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 20:40:14,313 - INFO - 💾 USD/JPY → sheet 'USD_JPY'
+2025-09-10 20:40:14,314 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 20:40:14,314 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:14,314 - INFO -    🕯️ Avg Range: 0.19104
+2025-09-10 20:40:14,314 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 20:40:14,697 - INFO - 💾 EUR/JPY → sheet 'EUR_JPY'
+2025-09-10 20:40:14,698 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 20:40:14,698 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:14,698 - INFO -    🕯️ Avg Range: 0.19377
+2025-09-10 20:40:14,698 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 20:40:14,986 - INFO - 💾 GBP/JPY → sheet 'GBP_JPY'
+2025-09-10 20:40:14,987 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 20:40:14,987 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 20:40:14,987 - INFO -    🕯️ Avg Range: 0.24047
+2025-09-10 20:40:14,988 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 20:40:14,988 - INFO - ==================================================
+2025-09-10 20:40:19,600 - INFO - 🎉 DATA FETCH COMPLETED!
+2025-09-10 20:40:19,600 - INFO - 📂 File saved: backtest/data/forex_data1.xlsx
+2025-09-10 20:40:19,600 - INFO - 
+2025-09-10 20:40:19,600 - INFO - 📊 FETCH STATISTICS:
+2025-09-10 20:40:19,600 - INFO -    Total pairs: 6
+2025-09-10 20:40:19,601 - INFO -    Successful: 6
+2025-09-10 20:40:19,601 - INFO -    Failed: 0
+2025-09-10 20:40:19,601 - INFO -    Total bars: 48,545
+2025-09-10 20:40:19,601 - INFO -    Avg per pair: 8,090
+2025-09-10 20:40:19,601 - INFO - 
+2025-09-10 20:40:19,601 - INFO - 🔧 NEXT STEPS:
+2025-09-10 20:40:19,601 - INFO -    1. Run backtest engine with: TARGET_PAIR = 'EUR/USD'
+2025-09-10 20:40:19,602 - INFO -    2. Check backtest/data_fetch.log for detailed info
+2025-09-10 20:40:19,602 - INFO -    3. ✅ NATIVE TIMEFRAMES - No aggregation needed!
+2025-09-10 20:40:19,602 - INFO -    4. 🚀 Faster backtests with accurate broker data
+2025-09-10 20:40:19,602 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-09-10 21:19:19,852 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-10 21:19:19,853 - INFO - 🎯 Fetching 6 months of recent data: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:19,853 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-10 21:19:19,853 - INFO - 
+2025-09-10 21:19:19,853 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-10 21:19:19,854 - INFO -    EUR/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:19:19,854 - INFO -    EUR/GBP: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:19:19,854 - INFO -    GBP/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:19:19,854 - INFO -    USD/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:19:19,854 - INFO -    EUR/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:19:19,854 - INFO -    GBP/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:19:19,855 - INFO - 
+2025-09-10 21:19:19,855 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-10 21:19:19,855 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-10 21:19:19,855 - INFO -    New native approach: ~51,840 total bars
+2025-09-10 21:19:19,855 - INFO -    Data reduction: 0.0% less data to download!
+2025-09-10 21:19:19,855 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-10 21:19:19,855 - INFO - 
+2025-09-10 21:19:19,855 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-10 21:19:19,856 - INFO - 🔧 Platform: nt
+2025-09-10 21:19:19,856 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\Trader
+2025-09-10 21:19:19,856 - INFO - ✅ All environment variables present
+2025-09-10 21:19:19,856 - INFO - 
+2025-09-10 21:19:19,856 - INFO - 🚀 Starting data fetch...
+2025-09-10 21:19:19,856 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-10 21:19:19,857 - INFO - 📅 Period: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:19,857 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-10 21:19:19,857 - INFO -    EUR/USD: M30
+2025-09-10 21:19:19,857 - INFO -    EUR/GBP: M30
+2025-09-10 21:19:19,857 - INFO -    GBP/USD: M30
+2025-09-10 21:19:19,857 - INFO -    USD/JPY: M30
+2025-09-10 21:19:19,857 - INFO -    EUR/JPY: M30
+2025-09-10 21:19:19,857 - INFO -    GBP/JPY: M30
+2025-09-10 21:19:19,858 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-10 21:19:19,895 - INFO - ✅ Connected to cTrader server
+2025-09-10 21:19:19,896 - INFO - 🔐 Authenticating application...
+2025-09-10 21:19:21,037 - INFO - ✅ Application authenticated
+2025-09-10 21:19:21,037 - INFO - 🔐 Authenticating user...
+2025-09-10 21:19:22,046 - INFO - ✅ User authenticated successfully
+2025-09-10 21:19:22,046 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-10 21:19:22,046 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-10 21:19:22,046 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-10 21:19:22,046 - INFO - 📊 EUR/USD: Requesting M30 data directly
+2025-09-10 21:19:23,322 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-10 21:19:23,322 - INFO - ✅ EUR/USD: 8090 M30 bars loaded NATIVELY
+2025-09-10 21:19:23,324 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:23,325 - INFO -    📊 Avg volume: 2,245
+2025-09-10 21:19:23,325 - INFO -    🕯️ Avg range: 0.00121
+2025-09-10 21:19:23,326 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:19:23,832 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-10 21:19:23,833 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-10 21:19:23,833 - INFO - 📊 EUR/GBP: Requesting M30 data directly
+2025-09-10 21:19:24,302 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-10 21:19:24,302 - INFO - ✅ EUR/GBP: 8091 M30 bars loaded NATIVELY
+2025-09-10 21:19:24,302 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:24,302 - INFO -    📊 Avg volume: 1,869
+2025-09-10 21:19:24,303 - INFO -    🕯️ Avg range: 0.00059
+2025-09-10 21:19:24,303 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:19:24,812 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-10 21:19:24,814 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-10 21:19:24,815 - INFO - 📊 GBP/USD: Requesting M30 data directly
+2025-09-10 21:19:25,399 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-10 21:19:25,400 - INFO - ✅ GBP/USD: 8091 M30 bars loaded NATIVELY
+2025-09-10 21:19:25,400 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:25,400 - INFO -    📊 Avg volume: 2,541
+2025-09-10 21:19:25,401 - INFO -    🕯️ Avg range: 0.00129
+2025-09-10 21:19:25,401 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:19:25,903 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-10 21:19:25,904 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-10 21:19:25,904 - INFO - 📊 USD/JPY: Requesting M30 data directly
+2025-09-10 21:19:27,350 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-10 21:19:27,350 - INFO - ✅ USD/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-10 21:19:27,351 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:27,351 - INFO -    📊 Avg volume: 3,276
+2025-09-10 21:19:27,351 - INFO -    🕯️ Avg range: 0.19104
+2025-09-10 21:19:27,351 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:19:27,857 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-10 21:19:27,859 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-10 21:19:27,860 - INFO - 📊 EUR/JPY: Requesting M30 data directly
+2025-09-10 21:19:28,289 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-10 21:19:28,289 - INFO - ✅ EUR/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-10 21:19:28,289 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:28,290 - INFO -    📊 Avg volume: 4,247
+2025-09-10 21:19:28,290 - INFO -    🕯️ Avg range: 0.19377
+2025-09-10 21:19:28,290 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:19:28,793 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-10 21:19:28,794 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-10 21:19:28,796 - INFO - 📊 GBP/JPY: Requesting M30 data directly
+2025-09-10 21:19:29,300 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-10 21:19:29,300 - INFO - ✅ GBP/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-10 21:19:29,301 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:29,301 - INFO -    📊 Avg volume: 4,551
+2025-09-10 21:19:29,302 - INFO -    🕯️ Avg range: 0.24047
+2025-09-10 21:19:29,302 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:19:29,803 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-10 21:19:30,154 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-10 21:19:30,154 - INFO - ==================================================
+2025-09-10 21:19:30,452 - INFO - 💾 EUR/USD → sheet 'EUR_USD'
+2025-09-10 21:19:30,452 - INFO -    📊 Bars: 8,090 M30 candles (M30 baseline)
+2025-09-10 21:19:30,453 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:30,453 - INFO -    🕯️ Avg Range: 0.00121
+2025-09-10 21:19:30,453 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:19:30,807 - INFO - 💾 EUR/GBP → sheet 'EUR_GBP'
+2025-09-10 21:19:30,808 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 21:19:30,808 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:30,808 - INFO -    🕯️ Avg Range: 0.00059
+2025-09-10 21:19:30,808 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:19:31,166 - INFO - 💾 GBP/USD → sheet 'GBP_USD'
+2025-09-10 21:19:31,166 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 21:19:31,167 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:31,167 - INFO -    🕯️ Avg Range: 0.00129
+2025-09-10 21:19:31,167 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:19:31,509 - INFO - 💾 USD/JPY → sheet 'USD_JPY'
+2025-09-10 21:19:31,509 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 21:19:31,510 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:31,510 - INFO -    🕯️ Avg Range: 0.19104
+2025-09-10 21:19:31,510 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:19:31,864 - INFO - 💾 EUR/JPY → sheet 'EUR_JPY'
+2025-09-10 21:19:31,865 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 21:19:31,865 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:31,865 - INFO -    🕯️ Avg Range: 0.19377
+2025-09-10 21:19:31,865 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:19:32,162 - INFO - 💾 GBP/JPY → sheet 'GBP_JPY'
+2025-09-10 21:19:32,162 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-10 21:19:32,162 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-10 21:19:32,163 - INFO -    🕯️ Avg Range: 0.24047
+2025-09-10 21:19:32,163 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:19:32,163 - INFO - ==================================================
+2025-09-10 21:19:36,473 - INFO - 🎉 DATA FETCH COMPLETED!
+2025-09-10 21:19:36,473 - INFO - 📂 File saved: backtest/data/forex_data1.xlsx
+2025-09-10 21:19:36,473 - INFO - 
+2025-09-10 21:19:36,473 - INFO - 📊 FETCH STATISTICS:
+2025-09-10 21:19:36,473 - INFO -    Total pairs: 6
+2025-09-10 21:19:36,474 - INFO -    Successful: 6
+2025-09-10 21:19:36,474 - INFO -    Failed: 0
+2025-09-10 21:19:36,474 - INFO -    Total bars: 48,545
+2025-09-10 21:19:36,474 - INFO -    Avg per pair: 8,090
+2025-09-10 21:19:36,474 - INFO - 
+2025-09-10 21:19:36,474 - INFO - 🔧 NEXT STEPS:
+2025-09-10 21:19:36,475 - INFO -    1. Run backtest engine with: TARGET_PAIR = 'EUR/USD'
+2025-09-10 21:19:36,475 - INFO -    2. Check backtest/data_fetch.log for detailed info
+2025-09-10 21:19:36,475 - INFO -    3. ✅ NATIVE TIMEFRAMES - No aggregation needed!
+2025-09-10 21:19:36,475 - INFO -    4. 🚀 Faster backtests with accurate broker data
+2025-09-10 21:19:36,475 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-09-10 21:21:24,969 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-10 21:21:24,970 - INFO - 🎯 Fetching 6 months of recent data: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:24,970 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-10 21:21:24,970 - INFO - 
+2025-09-10 21:21:24,970 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-10 21:21:24,970 - INFO -    EUR/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:21:24,971 - INFO -    EUR/GBP: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:21:24,971 - INFO -    GBP/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:21:24,971 - INFO -    USD/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:21:24,971 - INFO -    EUR/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:21:24,971 - INFO -    GBP/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-10 21:21:24,971 - INFO - 
+2025-09-10 21:21:24,972 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-10 21:21:24,972 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-10 21:21:24,972 - INFO -    New native approach: ~51,840 total bars
+2025-09-10 21:21:24,972 - INFO -    Data reduction: 0.0% less data to download!
+2025-09-10 21:21:24,972 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-10 21:21:24,972 - INFO - 
+2025-09-10 21:21:24,972 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-10 21:21:24,972 - INFO - 🔧 Platform: nt
+2025-09-10 21:21:24,972 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\Trader
+2025-09-10 21:21:24,972 - INFO - ✅ All environment variables present
+2025-09-10 21:21:24,973 - INFO - 
+2025-09-10 21:21:24,973 - INFO - 🚀 Starting data fetch...
+2025-09-10 21:21:24,973 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-10 21:21:24,973 - INFO - 📅 Period: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:24,973 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-10 21:21:24,973 - INFO -    EUR/USD: M30
+2025-09-10 21:21:24,973 - INFO -    EUR/GBP: M30
+2025-09-10 21:21:24,973 - INFO -    GBP/USD: M30
+2025-09-10 21:21:24,973 - INFO -    USD/JPY: M30
+2025-09-10 21:21:24,973 - INFO -    EUR/JPY: M30
+2025-09-10 21:21:24,973 - INFO -    GBP/JPY: M30
+2025-09-10 21:21:24,973 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-10 21:21:24,992 - INFO - ✅ Connected to cTrader server
+2025-09-10 21:21:24,993 - INFO - 🔐 Authenticating application...
+2025-09-10 21:21:26,113 - INFO - ✅ Application authenticated
+2025-09-10 21:21:26,113 - INFO - 🔐 Authenticating user...
+2025-09-10 21:21:27,131 - INFO - ✅ User authenticated successfully
+2025-09-10 21:21:27,132 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-10 21:21:27,133 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-10 21:21:27,133 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-10 21:21:27,133 - INFO - 📊 EUR/USD: Requesting M30 data directly
+2025-09-10 21:21:28,147 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-10 21:21:28,147 - INFO - ✅ EUR/USD: 988 M30 bars loaded NATIVELY
+2025-09-10 21:21:28,148 - INFO -    📅 Date range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:28,148 - INFO -    📊 Avg volume: 1,775
+2025-09-10 21:21:28,148 - INFO -    🕯️ Avg range: 0.00099
+2025-09-10 21:21:28,148 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:21:28,656 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-10 21:21:28,656 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-10 21:21:28,656 - INFO - 📊 EUR/GBP: Requesting M30 data directly
+2025-09-10 21:21:29,141 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-10 21:21:29,141 - INFO - ✅ EUR/GBP: 988 M30 bars loaded NATIVELY
+2025-09-10 21:21:29,141 - INFO -    📅 Date range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:29,142 - INFO -    📊 Avg volume: 1,524
+2025-09-10 21:21:29,142 - INFO -    🕯️ Avg range: 0.00048
+2025-09-10 21:21:29,142 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:21:29,649 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-10 21:21:29,649 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-10 21:21:29,650 - INFO - 📊 GBP/USD: Requesting M30 data directly
+2025-09-10 21:21:30,146 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-10 21:21:30,147 - INFO - ✅ GBP/USD: 988 M30 bars loaded NATIVELY
+2025-09-10 21:21:30,147 - INFO -    📅 Date range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:30,147 - INFO -    📊 Avg volume: 2,050
+2025-09-10 21:21:30,147 - INFO -    🕯️ Avg range: 0.00106
+2025-09-10 21:21:30,147 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:21:30,662 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-10 21:21:30,663 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-10 21:21:30,664 - INFO - 📊 USD/JPY: Requesting M30 data directly
+2025-09-10 21:21:31,153 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-10 21:21:31,154 - INFO - ✅ USD/JPY: 988 M30 bars loaded NATIVELY
+2025-09-10 21:21:31,155 - INFO -    📅 Date range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:31,155 - INFO -    📊 Avg volume: 2,706
+2025-09-10 21:21:31,155 - INFO -    🕯️ Avg range: 0.14539
+2025-09-10 21:21:31,155 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:21:31,660 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-10 21:21:31,664 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-10 21:21:31,665 - INFO - 📊 EUR/JPY: Requesting M30 data directly
+2025-09-10 21:21:32,149 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-10 21:21:32,150 - INFO - ✅ EUR/JPY: 988 M30 bars loaded NATIVELY
+2025-09-10 21:21:32,150 - INFO -    📅 Date range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:32,150 - INFO -    📊 Avg volume: 3,445
+2025-09-10 21:21:32,151 - INFO -    🕯️ Avg range: 0.14061
+2025-09-10 21:21:32,151 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:21:32,657 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-10 21:21:32,657 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-10 21:21:32,659 - INFO - 📊 GBP/JPY: Requesting M30 data directly
+2025-09-10 21:21:33,148 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-10 21:21:33,149 - INFO - ✅ GBP/JPY: 988 M30 bars loaded NATIVELY
+2025-09-10 21:21:33,149 - INFO -    📅 Date range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:33,149 - INFO -    📊 Avg volume: 3,706
+2025-09-10 21:21:33,150 - INFO -    🕯️ Avg range: 0.17352
+2025-09-10 21:21:33,150 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-10 21:21:33,657 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-10 21:21:34,029 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-10 21:21:34,030 - INFO - ==================================================
+2025-09-10 21:21:34,074 - INFO - 💾 EUR/USD → sheet 'EUR_USD'
+2025-09-10 21:21:34,074 - INFO -    📊 Bars: 988 M30 candles (M30 baseline)
+2025-09-10 21:21:34,074 - INFO -    📅 Range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:34,075 - INFO -    🕯️ Avg Range: 0.00099
+2025-09-10 21:21:34,075 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:21:34,116 - INFO - 💾 EUR/GBP → sheet 'EUR_GBP'
+2025-09-10 21:21:34,117 - INFO -    📊 Bars: 988 M30 candles (M30 baseline)
+2025-09-10 21:21:34,117 - INFO -    📅 Range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:34,117 - INFO -    🕯️ Avg Range: 0.00048
+2025-09-10 21:21:34,117 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:21:34,159 - INFO - 💾 GBP/USD → sheet 'GBP_USD'
+2025-09-10 21:21:34,159 - INFO -    📊 Bars: 988 M30 candles (M30 baseline)
+2025-09-10 21:21:34,159 - INFO -    📅 Range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:34,160 - INFO -    🕯️ Avg Range: 0.00106
+2025-09-10 21:21:34,160 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:21:34,202 - INFO - 💾 USD/JPY → sheet 'USD_JPY'
+2025-09-10 21:21:34,202 - INFO -    📊 Bars: 988 M30 candles (M30 baseline)
+2025-09-10 21:21:34,202 - INFO -    📅 Range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:34,203 - INFO -    🕯️ Avg Range: 0.14539
+2025-09-10 21:21:34,203 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:21:34,242 - INFO - 💾 EUR/JPY → sheet 'EUR_JPY'
+2025-09-10 21:21:34,242 - INFO -    📊 Bars: 988 M30 candles (M30 baseline)
+2025-09-10 21:21:34,242 - INFO -    📅 Range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:34,242 - INFO -    🕯️ Avg Range: 0.14061
+2025-09-10 21:21:34,242 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:21:34,313 - INFO - 💾 GBP/JPY → sheet 'GBP_JPY'
+2025-09-10 21:21:34,314 - INFO -    📊 Bars: 988 M30 candles (M30 baseline)
+2025-09-10 21:21:34,314 - INFO -    📅 Range: 2025-08-01 to 2025-09-01
+2025-09-10 21:21:34,314 - INFO -    🕯️ Avg Range: 0.17352
+2025-09-10 21:21:34,314 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-10 21:21:34,314 - INFO - ==================================================
+2025-09-10 21:21:35,220 - INFO - 🎉 DATA FETCH COMPLETED!
+2025-09-10 21:21:35,221 - INFO - 📂 File saved: backtest/data/forex_data1.xlsx
+2025-09-10 21:21:35,221 - INFO - 
+2025-09-10 21:21:35,221 - INFO - 📊 FETCH STATISTICS:
+2025-09-10 21:21:35,222 - INFO -    Total pairs: 6
+2025-09-10 21:21:35,222 - INFO -    Successful: 6
+2025-09-10 21:21:35,222 - INFO -    Failed: 0
+2025-09-10 21:21:35,222 - INFO -    Total bars: 5,928
+2025-09-10 21:21:35,222 - INFO -    Avg per pair: 988
+2025-09-10 21:21:35,223 - INFO - 
+2025-09-10 21:21:35,223 - INFO - 🔧 NEXT STEPS:
+2025-09-10 21:21:35,223 - INFO -    1. Run backtest engine with: TARGET_PAIR = 'EUR/USD'
+2025-09-10 21:21:35,223 - INFO -    2. Check backtest/data_fetch.log for detailed info
+2025-09-10 21:21:35,224 - INFO -    3. ✅ NATIVE TIMEFRAMES - No aggregation needed!
+2025-09-10 21:21:35,224 - INFO -    4. 🚀 Faster backtests with accurate broker data
+2025-09-10 21:21:35,224 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-09-11 13:23:49,739 - INFO - 🚀 ENHANCED DATA FETCHER v3.0 - NATIVE TIMEFRAMES
+2025-09-11 13:23:49,740 - INFO - 🎯 Fetching 6 months of recent data: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:49,740 - INFO - 🔧 Output: backtest/data/forex_data1.xlsx
+2025-09-11 13:23:49,740 - INFO - 
+2025-09-11 13:23:49,740 - INFO - 📊 NATIVE TIMEFRAME CONFIGURATION:
+2025-09-11 13:23:49,741 - INFO -    EUR/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-11 13:23:49,741 - INFO -    EUR/GBP: M30 NATIVE (~8,640 bars, no change)
+2025-09-11 13:23:49,741 - INFO -    GBP/USD: M30 NATIVE (~8,640 bars, no change)
+2025-09-11 13:23:49,742 - INFO -    USD/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-11 13:23:49,742 - INFO -    EUR/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-11 13:23:49,742 - INFO -    GBP/JPY: M30 NATIVE (~8,640 bars, no change)
+2025-09-11 13:23:49,742 - INFO - 
+2025-09-11 13:23:49,743 - INFO - ⚡ EFFICIENCY SUMMARY:
+2025-09-11 13:23:49,743 - INFO -    Old M30 approach: 51,840 total bars
+2025-09-11 13:23:49,743 - INFO -    New native approach: ~51,840 total bars
+2025-09-11 13:23:49,743 - INFO -    Data reduction: 0.0% less data to download!
+2025-09-11 13:23:49,743 - INFO -    🎯 Native broker accuracy + faster processing
+2025-09-11 13:23:49,744 - INFO - 
+2025-09-11 13:23:49,744 - INFO - 🔧 Python version: 3.10.16 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:19:12) [MSC v.1929 64 bit (AMD64)]
+2025-09-11 13:23:49,744 - INFO - 🔧 Platform: nt
+2025-09-11 13:23:49,744 - INFO - 🔧 Working directory: D:\Projects\Visual Studio Code\Bots\MyTrader
+2025-09-11 13:23:49,744 - INFO - ✅ All environment variables present
+2025-09-11 13:23:49,745 - INFO - 
+2025-09-11 13:23:49,745 - INFO - 🚀 Starting data fetch...
+2025-09-11 13:23:49,745 - INFO - 🚀 Fetching data for ['EUR/USD', 'EUR/GBP', 'GBP/USD', 'USD/JPY', 'EUR/JPY', 'GBP/JPY']
+2025-09-11 13:23:49,745 - INFO - 📅 Period: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:49,745 - INFO - 📊 TIMEFRAME CONFIGURATION:
+2025-09-11 13:23:49,746 - INFO -    EUR/USD: M30
+2025-09-11 13:23:49,746 - INFO -    EUR/GBP: M30
+2025-09-11 13:23:49,746 - INFO -    GBP/USD: M30
+2025-09-11 13:23:49,746 - INFO -    USD/JPY: M30
+2025-09-11 13:23:49,746 - INFO -    EUR/JPY: M30
+2025-09-11 13:23:49,746 - INFO -    GBP/JPY: M30
+2025-09-11 13:23:49,747 - INFO - 📝 NOTE: Fetching M30 base data - backtest engine will aggregate to target timeframes
+2025-09-11 13:23:49,842 - INFO - ✅ Connected to cTrader server
+2025-09-11 13:23:49,842 - INFO - 🔐 Authenticating application...
+2025-09-11 13:23:50,988 - INFO - ✅ Application authenticated
+2025-09-11 13:23:50,988 - INFO - 🔐 Authenticating user...
+2025-09-11 13:23:51,989 - INFO - ✅ User authenticated successfully
+2025-09-11 13:23:51,991 - INFO - 📊 Starting data fetch for 6 pairs
+2025-09-11 13:23:51,992 - INFO - 📈 Fetching EUR/USD data... (1/6)
+2025-09-11 13:23:51,993 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-11 13:23:51,994 - INFO - 📊 EUR/USD: Requesting M30 data directly
+2025-09-11 13:23:53,258 - INFO - 📊 EUR/USD using M30 timeframe
+2025-09-11 13:23:53,259 - INFO - ✅ EUR/USD: 8090 M30 bars loaded NATIVELY
+2025-09-11 13:23:53,259 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:53,259 - INFO -    📊 Avg volume: 2,245
+2025-09-11 13:23:53,259 - INFO -    🕯️ Avg range: 0.00121
+2025-09-11 13:23:53,261 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-11 13:23:53,769 - INFO - 📈 Fetching EUR/GBP data... (2/6)
+2025-09-11 13:23:53,770 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-11 13:23:53,772 - INFO - 📊 EUR/GBP: Requesting M30 data directly
+2025-09-11 13:23:54,296 - INFO - 📊 EUR/GBP using M30 timeframe
+2025-09-11 13:23:54,296 - INFO - ✅ EUR/GBP: 8091 M30 bars loaded NATIVELY
+2025-09-11 13:23:54,297 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:54,297 - INFO -    📊 Avg volume: 1,869
+2025-09-11 13:23:54,297 - INFO -    🕯️ Avg range: 0.00059
+2025-09-11 13:23:54,297 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-11 13:23:54,799 - INFO - 📈 Fetching GBP/USD data... (3/6)
+2025-09-11 13:23:54,800 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-11 13:23:54,801 - INFO - 📊 GBP/USD: Requesting M30 data directly
+2025-09-11 13:23:55,354 - INFO - 📊 GBP/USD using M30 timeframe
+2025-09-11 13:23:55,354 - INFO - ✅ GBP/USD: 8091 M30 bars loaded NATIVELY
+2025-09-11 13:23:55,355 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:55,355 - INFO -    📊 Avg volume: 2,541
+2025-09-11 13:23:55,356 - INFO -    🕯️ Avg range: 0.00129
+2025-09-11 13:23:55,356 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-11 13:23:55,871 - INFO - 📈 Fetching USD/JPY data... (4/6)
+2025-09-11 13:23:55,871 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-11 13:23:55,873 - INFO - 📊 USD/JPY: Requesting M30 data directly
+2025-09-11 13:23:57,284 - INFO - 📊 USD/JPY using M30 timeframe
+2025-09-11 13:23:57,286 - INFO - ✅ USD/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-11 13:23:57,286 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:57,286 - INFO -    📊 Avg volume: 3,276
+2025-09-11 13:23:57,287 - INFO -    🕯️ Avg range: 0.19104
+2025-09-11 13:23:57,287 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-11 13:23:57,787 - INFO - 📈 Fetching EUR/JPY data... (5/6)
+2025-09-11 13:23:57,789 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-11 13:23:57,790 - INFO - 📊 EUR/JPY: Requesting M30 data directly
+2025-09-11 13:23:58,240 - INFO - 📊 EUR/JPY using M30 timeframe
+2025-09-11 13:23:58,240 - INFO - ✅ EUR/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-11 13:23:58,241 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:58,241 - INFO -    📊 Avg volume: 4,247
+2025-09-11 13:23:58,241 - INFO -    🕯️ Avg range: 0.19377
+2025-09-11 13:23:58,241 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-11 13:23:58,750 - INFO - 📈 Fetching GBP/JPY data... (6/6)
+2025-09-11 13:23:58,752 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-11 13:23:58,752 - INFO - 📊 GBP/JPY: Requesting M30 data directly
+2025-09-11 13:23:59,404 - INFO - 📊 GBP/JPY using M30 timeframe
+2025-09-11 13:23:59,406 - INFO - ✅ GBP/JPY: 8091 M30 bars loaded NATIVELY
+2025-09-11 13:23:59,406 - INFO -    📅 Date range: 2025-01-01 to 2025-09-01
+2025-09-11 13:23:59,406 - INFO -    📊 Avg volume: 4,551
+2025-09-11 13:23:59,407 - INFO -    🕯️ Avg range: 0.24047
+2025-09-11 13:23:59,407 - INFO -    ⚡ Efficiency: No efficiency gain (M30)
+2025-09-11 13:23:59,919 - INFO - ✅ All data fetched. Saving to Excel...
+2025-09-11 13:24:00,263 - INFO - 📝 SAVING DATA SUMMARY:
+2025-09-11 13:24:00,263 - INFO - ==================================================
+2025-09-11 13:24:00,558 - INFO - 💾 EUR/USD → sheet 'EUR_USD'
+2025-09-11 13:24:00,558 - INFO -    📊 Bars: 8,090 M30 candles (M30 baseline)
+2025-09-11 13:24:00,559 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-11 13:24:00,559 - INFO -    🕯️ Avg Range: 0.00121
+2025-09-11 13:24:00,559 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-11 13:24:01,097 - INFO - 💾 EUR/GBP → sheet 'EUR_GBP'
+2025-09-11 13:24:01,097 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-11 13:24:01,097 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-11 13:24:01,098 - INFO -    🕯️ Avg Range: 0.00059
+2025-09-11 13:24:01,098 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-11 13:24:01,424 - INFO - 💾 GBP/USD → sheet 'GBP_USD'
+2025-09-11 13:24:01,424 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-11 13:24:01,424 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-11 13:24:01,424 - INFO -    🕯️ Avg Range: 0.00129
+2025-09-11 13:24:01,424 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-11 13:24:01,770 - INFO - 💾 USD/JPY → sheet 'USD_JPY'
+2025-09-11 13:24:01,770 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-11 13:24:01,770 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-11 13:24:01,771 - INFO -    🕯️ Avg Range: 0.19104
+2025-09-11 13:24:01,771 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-11 13:24:02,087 - INFO - 💾 EUR/JPY → sheet 'EUR_JPY'
+2025-09-11 13:24:02,088 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-11 13:24:02,088 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-11 13:24:02,088 - INFO -    🕯️ Avg Range: 0.19377
+2025-09-11 13:24:02,088 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-11 13:24:02,425 - INFO - 💾 GBP/JPY → sheet 'GBP_JPY'
+2025-09-11 13:24:02,426 - INFO -    📊 Bars: 8,091 M30 candles (M30 baseline)
+2025-09-11 13:24:02,426 - INFO -    📅 Range: 2025-01-01 to 2025-09-01
+2025-09-11 13:24:02,427 - INFO -    🕯️ Avg Range: 0.24047
+2025-09-11 13:24:02,427 - INFO -    ✅ NATIVE TIMEFRAME - No aggregation needed!
+2025-09-11 13:24:02,428 - INFO - ==================================================
+2025-09-11 13:24:07,842 - INFO - 🎉 DATA FETCH COMPLETED!
+2025-09-11 13:24:07,842 - INFO - 📂 File saved: backtest/data/forex_data1.xlsx
+2025-09-11 13:24:07,843 - INFO - 
+2025-09-11 13:24:07,843 - INFO - 📊 FETCH STATISTICS:
+2025-09-11 13:24:07,843 - INFO -    Total pairs: 6
+2025-09-11 13:24:07,843 - INFO -    Successful: 6
+2025-09-11 13:24:07,843 - INFO -    Failed: 0
+2025-09-11 13:24:07,843 - INFO -    Total bars: 48,545
+2025-09-11 13:24:07,843 - INFO -    Avg per pair: 8,090
+2025-09-11 13:24:07,844 - INFO - 
+2025-09-11 13:24:07,844 - INFO - 🔧 NEXT STEPS:
+2025-09-11 13:24:07,844 - INFO -    1. Run backtest engine with: TARGET_PAIR = 'EUR/USD'
+2025-09-11 13:24:07,844 - INFO -    2. Check backtest/data_fetch.log for detailed info
+2025-09-11 13:24:07,844 - INFO -    3. ✅ NATIVE TIMEFRAMES - No aggregation needed!
+2025-09-11 13:24:07,844 - INFO -    4. 🚀 Faster backtests with accurate broker data
+2025-09-11 13:24:07,845 - INFO - 🔌 Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]

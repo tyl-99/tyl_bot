@@ -1,0 +1,83 @@
+
+USD/JPY PURE STRATEGY BACKTEST RESULTS
+================================================================================
+Strategy: USDJPYStrategy
+
+PURE STRATEGY TESTING:
+   Processed Bars: 7,842
+   Total Available Bars: 8,091
+   Processing Rate: 96.9% of bars
+   Trading Costs: ZERO (Pure strategy performance)
+
+TRADING RESULTS:
+   Total Trades: 58
+   Win Rate: 34.48%
+   Winning Trades:
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-01-09 14:00, Exit: 2025-01-10 00:00, SL: 13.3 pips, TP: 39.9 pips, Entry Volume: 3423, Position Volume: 0.75 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-01-12 22:00, Exit: 2025-01-12 23:30, SL: 6.1 pips, TP: 18.3 pips, Entry Volume: 175, Position Volume: 1.64 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-01-13 04:00, Exit: 2025-01-13 05:00, SL: 4.1 pips, TP: 12.3 pips, Entry Volume: 2458, Position Volume: 2.44 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-01-22 00:30, Exit: 2025-01-22 01:00, SL: 5.7 pips, TP: 17.1 pips, Entry Volume: 4125, Position Volume: 1.75 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-01-22 23:30, Exit: 2025-01-23 00:00, SL: 4.0 pips, TP: 12.0 pips, Entry Volume: 1520, Position Volume: 2.50 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-02-04 13:30, Exit: 2025-02-04 14:30, SL: 6.5 pips, TP: 19.5 pips, Entry Volume: 3472, Position Volume: 1.54 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-02-16 23:30, Exit: 2025-02-17 02:30, SL: 15.8 pips, TP: 47.4 pips, Entry Volume: 2681, Position Volume: 0.63 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-03-05 05:30, Exit: 2025-03-05 08:00, SL: 10.2 pips, TP: 30.6 pips, Entry Volume: 3379, Position Volume: 0.98 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-03-13 04:00, Exit: 2025-03-13 05:30, SL: 5.0 pips, TP: 15.0 pips, Entry Volume: 2741, Position Volume: 2.00 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-05-07 19:30, Exit: 2025-05-07 20:00, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 6168, Position Volume: 1.89 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-06-11 22:30, Exit: 2025-06-12 00:30, SL: 9.6 pips, TP: 28.8 pips, Entry Volume: 1610, Position Volume: 1.04 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-06-16 07:00, Exit: 2025-06-16 07:30, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 3755, Position Volume: 2.17 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-06-17 13:30, Exit: 2025-06-17 14:30, SL: 10.7 pips, TP: 32.1 pips, Entry Volume: 4881, Position Volume: 0.93 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-07-02 15:30, Exit: 2025-07-02 23:30, SL: 8.2 pips, TP: 24.6 pips, Entry Volume: 3397, Position Volume: 1.22 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-07-11 00:30, Exit: 2025-07-11 01:00, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 4593, Position Volume: 2.17 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-08-04 00:30, Exit: 2025-08-04 01:00, SL: 4.7 pips, TP: 14.1 pips, Entry Volume: 4674, Position Volume: 2.13 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-08-06 19:30, Exit: 2025-08-06 21:00, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 1887, Position Volume: 2.08 lots)
+     - Trade(BUY USD/JPY, PnL: $+300.00, Entry: 2025-08-06 22:30, Exit: 2025-08-07 00:30, SL: 8.1 pips, TP: 24.3 pips, Entry Volume: 1076, Position Volume: 1.23 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-08-13 07:00, Exit: 2025-08-13 08:30, SL: 10.0 pips, TP: 30.0 pips, Entry Volume: 3755, Position Volume: 1.00 lots)
+     - Trade(SELL USD/JPY, PnL: $+300.00, Entry: 2025-08-20 14:00, Exit: 2025-08-20 14:30, SL: 4.0 pips, TP: 12.0 pips, Entry Volume: 5065, Position Volume: 2.50 lots)
+   Losing Trades:
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-10 14:30, Exit: 2025-01-10 15:00, SL: 9.6 pips, TP: 28.8 pips, Entry Volume: 7270, Position Volume: 1.04 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-13 00:30, Exit: 2025-01-13 01:00, SL: 11.7 pips, TP: 35.1 pips, Entry Volume: 2517, Position Volume: 0.85 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-14 13:30, Exit: 2025-01-14 14:30, SL: 9.5 pips, TP: 28.5 pips, Entry Volume: 6842, Position Volume: 1.05 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-14 14:30, Exit: 2025-01-15 04:30, SL: 13.4 pips, TP: 40.2 pips, Entry Volume: 5482, Position Volume: 0.75 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-20 22:00, Exit: 2025-01-20 23:00, SL: 4.0 pips, TP: 12.0 pips, Entry Volume: 615, Position Volume: 2.50 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-22 14:30, Exit: 2025-01-22 15:00, SL: 7.2 pips, TP: 21.6 pips, Entry Volume: 5044, Position Volume: 1.39 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-22 15:00, Exit: 2025-01-22 15:30, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 4460, Position Volume: 2.04 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-01-22 22:00, Exit: 2025-01-22 23:00, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 110, Position Volume: 2.17 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-01-23 00:30, Exit: 2025-01-23 01:30, SL: 8.7 pips, TP: 26.1 pips, Entry Volume: 2869, Position Volume: 1.15 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-01-27 04:30, Exit: 2025-01-27 07:00, SL: 9.3 pips, TP: 27.9 pips, Entry Volume: 2614, Position Volume: 1.08 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-02-04 05:30, Exit: 2025-02-04 06:00, SL: 7.8 pips, TP: 23.4 pips, Entry Volume: 4089, Position Volume: 1.28 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-02-04 07:00, Exit: 2025-02-04 07:30, SL: 4.7 pips, TP: 14.1 pips, Entry Volume: 3716, Position Volume: 2.13 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-02-25 04:00, Exit: 2025-02-25 05:00, SL: 7.8 pips, TP: 23.4 pips, Entry Volume: 3324, Position Volume: 1.28 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-02-27 23:00, Exit: 2025-02-27 23:30, SL: 4.4 pips, TP: 13.2 pips, Entry Volume: 1563, Position Volume: 2.27 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-02-28 00:00, Exit: 2025-02-28 00:30, SL: 7.8 pips, TP: 23.4 pips, Entry Volume: 4857, Position Volume: 1.28 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-03-13 07:00, Exit: 2025-03-13 09:00, SL: 9.3 pips, TP: 27.9 pips, Entry Volume: 4493, Position Volume: 1.08 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-04-04 00:30, Exit: 2025-04-04 01:00, SL: 6.5 pips, TP: 19.5 pips, Entry Volume: 5819, Position Volume: 1.54 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-04-28 23:30, Exit: 2025-04-29 00:00, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 1542, Position Volume: 2.17 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-05-07 22:00, Exit: 2025-05-07 22:30, SL: 7.9 pips, TP: 23.7 pips, Entry Volume: 1108, Position Volume: 1.27 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-05-07 22:30, Exit: 2025-05-07 23:30, SL: 11.9 pips, TP: 35.7 pips, Entry Volume: 1045, Position Volume: 0.84 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-05-07 23:30, Exit: 2025-05-08 00:00, SL: 10.2 pips, TP: 30.6 pips, Entry Volume: 1361, Position Volume: 0.98 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-05-08 00:00, Exit: 2025-05-08 00:30, SL: 5.4 pips, TP: 16.2 pips, Entry Volume: 3101, Position Volume: 1.85 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-05-08 00:30, Exit: 2025-05-08 01:00, SL: 9.1 pips, TP: 27.3 pips, Entry Volume: 3420, Position Volume: 1.10 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-06-02 14:00, Exit: 2025-06-02 15:30, SL: 16.1 pips, TP: 48.3 pips, Entry Volume: 6349, Position Volume: 0.62 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-06-24 14:30, Exit: 2025-06-24 15:30, SL: 12.1 pips, TP: 36.3 pips, Entry Volume: 4839, Position Volume: 0.83 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-06-24 19:00, Exit: 2025-06-24 20:00, SL: 15.8 pips, TP: 47.4 pips, Entry Volume: 1747, Position Volume: 0.63 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-06-26 04:00, Exit: 2025-06-26 05:00, SL: 4.1 pips, TP: 12.3 pips, Entry Volume: 2118, Position Volume: 2.44 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-07-03 00:30, Exit: 2025-07-03 02:00, SL: 16.1 pips, TP: 48.3 pips, Entry Volume: 3511, Position Volume: 0.62 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-07-03 07:00, Exit: 2025-07-03 07:30, SL: 5.9 pips, TP: 17.7 pips, Entry Volume: 2778, Position Volume: 1.69 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-07-16 05:00, Exit: 2025-07-16 05:30, SL: 5.8 pips, TP: 17.4 pips, Entry Volume: 2621, Position Volume: 1.72 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-07-16 07:30, Exit: 2025-07-16 08:00, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 2614, Position Volume: 1.89 lots)
+     - Trade(BUY USD/JPY, PnL: $-100.00, Entry: 2025-08-07 13:00, Exit: 2025-08-07 13:30, SL: 4.2 pips, TP: 12.6 pips, Entry Volume: 4434, Position Volume: 2.38 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-08-11 04:00, Exit: 2025-08-11 06:30, SL: 14.1 pips, TP: 42.3 pips, Entry Volume: 2210, Position Volume: 0.71 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-08-15 13:00, Exit: 2025-08-15 16:30, SL: 9.4 pips, TP: 28.2 pips, Entry Volume: 4844, Position Volume: 1.06 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-08-17 22:00, Exit: 2025-08-17 23:00, SL: 9.3 pips, TP: 27.9 pips, Entry Volume: 996, Position Volume: 1.08 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-08-20 13:30, Exit: 2025-08-20 14:00, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 4556, Position Volume: 1.92 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-08-20 15:00, Exit: 2025-08-20 15:30, SL: 6.3 pips, TP: 18.9 pips, Entry Volume: 3913, Position Volume: 1.59 lots)
+     - Trade(SELL USD/JPY, PnL: $-100.00, Entry: 2025-08-24 22:30, Exit: 2025-08-24 23:00, SL: 5.9 pips, TP: 17.7 pips, Entry Volume: 1312, Position Volume: 1.69 lots)
+
+TRADING SUMMARY:
+   Starting Balance: $1,000.00
+   Final Balance: $3,200.00
+   Total PnL: $2,200.00
+   Peak Balance: $3,400.00
+   Lowest Balance: $1,000.00
+   Max Drawdown: -27.27%
+   Overall R:R Ratio: 2.62:1

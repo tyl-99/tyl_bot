@@ -1,0 +1,86 @@
+
+EUR/GBP PURE STRATEGY BACKTEST RESULTS
+================================================================================
+Strategy: EURGBPStrategy
+
+PURE STRATEGY TESTING:
+   Processed Bars: 7,842
+   Total Available Bars: 8,091
+   Processing Rate: 96.9% of bars
+   Trading Costs: ZERO (Pure strategy performance)
+
+TRADING RESULTS:
+   Total Trades: 61
+   Win Rate: 42.62%
+   Winning Trades:
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-01-15 09:00, Exit: 2025-01-15 11:30, SL: 5.0 pips, TP: 15.0 pips, Entry Volume: 2053, Position Volume: 2.00 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-01-17 11:00, Exit: 2025-01-17 12:00, SL: 4.5 pips, TP: 13.5 pips, Entry Volume: 2460, Position Volume: 2.22 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-01-22 05:30, Exit: 2025-01-22 07:00, SL: 5.1 pips, TP: 15.3 pips, Entry Volume: 850, Position Volume: 1.96 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-01-23 08:30, Exit: 2025-01-23 14:30, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 1690, Position Volume: 2.17 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-01-27 18:00, Exit: 2025-01-27 23:30, SL: 6.3 pips, TP: 18.9 pips, Entry Volume: 2212, Position Volume: 1.59 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-02-04 00:30, Exit: 2025-02-04 15:00, SL: 8.4 pips, TP: 25.2 pips, Entry Volume: 1216, Position Volume: 1.19 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-02-21 07:00, Exit: 2025-02-21 16:00, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 2062, Position Volume: 2.08 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-02-26 12:30, Exit: 2025-02-26 15:30, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 1709, Position Volume: 2.17 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-02-26 16:30, Exit: 2025-02-26 17:30, SL: 5.0 pips, TP: 15.0 pips, Entry Volume: 1936, Position Volume: 2.00 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-03-07 02:00, Exit: 2025-03-07 07:30, SL: 6.6 pips, TP: 19.8 pips, Entry Volume: 1440, Position Volume: 1.52 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-03-14 16:30, Exit: 2025-03-16 21:00, SL: 4.7 pips, TP: 14.1 pips, Entry Volume: 1882, Position Volume: 2.13 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-03-18 10:00, Exit: 2025-03-19 07:30, SL: 5.9 pips, TP: 17.7 pips, Entry Volume: 2409, Position Volume: 1.69 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-03-31 09:30, Exit: 2025-03-31 11:30, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 1785, Position Volume: 2.17 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-04-03 07:00, Exit: 2025-04-03 08:30, SL: 6.0 pips, TP: 18.0 pips, Entry Volume: 5124, Position Volume: 1.67 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-05-06 07:00, Exit: 2025-05-06 09:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 2759, Position Volume: 1.92 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-05-07 19:00, Exit: 2025-05-08 01:30, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 3835, Position Volume: 1.79 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-05-13 05:00, Exit: 2025-05-13 12:00, SL: 5.1 pips, TP: 15.3 pips, Entry Volume: 1328, Position Volume: 1.96 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-05-27 00:30, Exit: 2025-05-27 09:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 1337, Position Volume: 1.92 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-06-05 17:00, Exit: 2025-06-10 07:00, SL: 11.5 pips, TP: 34.5 pips, Entry Volume: 1757, Position Volume: 0.87 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-07-03 00:00, Exit: 2025-07-03 14:30, SL: 11.7 pips, TP: 35.1 pips, Entry Volume: 1563, Position Volume: 0.85 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-07-08 22:00, Exit: 2025-07-09 07:30, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 1013, Position Volume: 2.04 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-07-18 07:30, Exit: 2025-07-24 16:00, SL: 15.2 pips, TP: 45.6 pips, Entry Volume: 1626, Position Volume: 0.66 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-07-29 09:00, Exit: 2025-07-29 11:30, SL: 7.3 pips, TP: 21.9 pips, Entry Volume: 2160, Position Volume: 1.37 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-08-04 22:00, Exit: 2025-08-05 08:00, SL: 5.7 pips, TP: 17.1 pips, Entry Volume: 915, Position Volume: 1.75 lots)
+     - Trade(BUY EUR/GBP, PnL: $+300.00, Entry: 2025-08-26 08:30, Exit: 2025-08-26 11:30, SL: 4.4 pips, TP: 13.2 pips, Entry Volume: 2168, Position Volume: 2.27 lots)
+     - Trade(SELL EUR/GBP, PnL: $+300.00, Entry: 2025-08-26 17:30, Exit: 2025-08-27 08:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 1300, Position Volume: 1.92 lots)
+   Losing Trades:
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-01-30 16:00, Exit: 2025-01-31 09:30, SL: 8.3 pips, TP: 24.9 pips, Entry Volume: 2699, Position Volume: 1.20 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-01-31 16:00, Exit: 2025-01-31 16:30, SL: 5.5 pips, TP: 16.5 pips, Entry Volume: 2997, Position Volume: 1.82 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-11 00:30, Exit: 2025-02-11 07:00, SL: 4.1 pips, TP: 12.3 pips, Entry Volume: 435, Position Volume: 2.44 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-02-11 09:30, Exit: 2025-02-11 13:00, SL: 9.9 pips, TP: 29.7 pips, Entry Volume: 1657, Position Volume: 1.01 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-12 11:00, Exit: 2025-02-12 13:30, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 1651, Position Volume: 2.04 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-13 00:00, Exit: 2025-02-13 04:30, SL: 6.0 pips, TP: 18.0 pips, Entry Volume: 727, Position Volume: 1.67 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-20 00:00, Exit: 2025-02-20 14:30, SL: 5.5 pips, TP: 16.5 pips, Entry Volume: 843, Position Volume: 1.82 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-24 08:30, Exit: 2025-02-24 09:30, SL: 5.7 pips, TP: 17.1 pips, Entry Volume: 2293, Position Volume: 1.75 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-24 09:30, Exit: 2025-02-24 10:00, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 2081, Position Volume: 1.89 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-24 10:00, Exit: 2025-02-24 15:00, SL: 6.0 pips, TP: 18.0 pips, Entry Volume: 1807, Position Volume: 1.67 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-24 16:00, Exit: 2025-02-24 19:30, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 2388, Position Volume: 2.17 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-02-25 11:30, Exit: 2025-02-25 12:00, SL: 4.2 pips, TP: 12.6 pips, Entry Volume: 1806, Position Volume: 2.38 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-03-27 05:30, Exit: 2025-03-27 12:30, SL: 11.5 pips, TP: 34.5 pips, Entry Volume: 1447, Position Volume: 0.87 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-03-27 12:30, Exit: 2025-03-27 15:00, SL: 4.4 pips, TP: 13.2 pips, Entry Volume: 2839, Position Volume: 2.27 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-03-30 22:00, Exit: 2025-03-31 09:30, SL: 7.3 pips, TP: 21.9 pips, Entry Volume: 1813, Position Volume: 1.37 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-03-31 16:00, Exit: 2025-03-31 21:00, SL: 5.4 pips, TP: 16.2 pips, Entry Volume: 2362, Position Volume: 1.85 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-03-31 22:00, Exit: 2025-04-01 04:30, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 804, Position Volume: 1.79 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-05-02 00:30, Exit: 2025-05-02 05:30, SL: 4.4 pips, TP: 13.2 pips, Entry Volume: 1811, Position Volume: 2.27 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-05-06 02:00, Exit: 2025-05-06 05:30, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 1909, Position Volume: 2.08 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-05-07 12:00, Exit: 2025-05-07 18:00, SL: 5.5 pips, TP: 16.5 pips, Entry Volume: 2324, Position Volume: 1.82 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-05-08 08:00, Exit: 2025-05-08 10:30, SL: 12.1 pips, TP: 36.3 pips, Entry Volume: 2558, Position Volume: 0.83 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-05-12 22:00, Exit: 2025-05-13 00:00, SL: 4.2 pips, TP: 12.6 pips, Entry Volume: 1022, Position Volume: 2.38 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-06-13 12:00, Exit: 2025-06-13 14:00, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 2190, Position Volume: 1.92 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-06-13 19:00, Exit: 2025-06-16 00:00, SL: 5.7 pips, TP: 17.1 pips, Entry Volume: 1568, Position Volume: 1.75 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-07-09 22:00, Exit: 2025-07-09 23:30, SL: 6.3 pips, TP: 18.9 pips, Entry Volume: 908, Position Volume: 1.59 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-07-10 02:00, Exit: 2025-07-10 12:30, SL: 4.7 pips, TP: 14.1 pips, Entry Volume: 844, Position Volume: 2.13 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-07-16 12:30, Exit: 2025-07-16 15:00, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 3691, Position Volume: 2.04 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-07-28 17:00, Exit: 2025-07-29 06:30, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 1498, Position Volume: 1.89 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-07-29 07:30, Exit: 2025-07-29 08:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 2872, Position Volume: 1.92 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-08-04 17:30, Exit: 2025-08-04 21:00, SL: 6.1 pips, TP: 18.3 pips, Entry Volume: 1383, Position Volume: 1.64 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-08-07 18:30, Exit: 2025-08-08 09:00, SL: 8.5 pips, TP: 25.5 pips, Entry Volume: 1420, Position Volume: 1.18 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-08-08 11:30, Exit: 2025-08-08 19:00, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 1738, Position Volume: 1.89 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-08-10 22:00, Exit: 2025-08-11 07:30, SL: 4.2 pips, TP: 12.6 pips, Entry Volume: 909, Position Volume: 2.38 lots)
+     - Trade(SELL EUR/GBP, PnL: $-100.00, Entry: 2025-08-20 07:30, Exit: 2025-08-20 10:00, SL: 6.1 pips, TP: 18.3 pips, Entry Volume: 1981, Position Volume: 1.64 lots)
+     - Trade(BUY EUR/GBP, PnL: $-100.00, Entry: 2025-08-26 00:30, Exit: 2025-08-26 06:30, SL: 4.5 pips, TP: 13.5 pips, Entry Volume: 2621, Position Volume: 2.22 lots)
+
+TRADING SUMMARY:
+   Starting Balance: $1,000.00
+   Final Balance: $5,300.00
+   Total PnL: $4,300.00
+   Peak Balance: $5,300.00
+   Lowest Balance: $1,000.00
+   Max Drawdown: -26.92%
+   Overall R:R Ratio: 3.18:1

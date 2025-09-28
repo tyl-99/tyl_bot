@@ -1,0 +1,64 @@
+
+GBP/JPY PURE STRATEGY BACKTEST RESULTS
+================================================================================
+Strategy: GBPJPYStrategy
+
+PURE STRATEGY TESTING:
+   Processed Bars: 7,842
+   Total Available Bars: 8,091
+   Processing Rate: 96.9% of bars
+   Trading Costs: ZERO (Pure strategy performance)
+
+TRADING RESULTS:
+   Total Trades: 39
+   Win Rate: 46.15%
+   Winning Trades:
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-02-11 01:00, Exit: 2025-02-11 03:00, SL: 10.0 pips, TP: 30.0 pips, Entry Volume: 3936, Position Volume: 1.00 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-02-11 05:00, Exit: 2025-02-11 08:30, SL: 14.9 pips, TP: 44.7 pips, Entry Volume: 1878, Position Volume: 0.67 lots)
+     - Trade(BUY GBP/JPY, PnL: $+300.00, Entry: 2025-03-05 06:30, Exit: 2025-03-05 08:00, SL: 20.2 pips, TP: 60.6 pips, Entry Volume: 4977, Position Volume: 0.50 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-03-07 11:30, Exit: 2025-03-07 13:30, SL: 11.3 pips, TP: 33.9 pips, Entry Volume: 5368, Position Volume: 0.88 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-03-19 14:00, Exit: 2025-03-19 18:00, SL: 15.9 pips, TP: 47.7 pips, Entry Volume: 6115, Position Volume: 0.63 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-05-22 19:30, Exit: 2025-05-23 03:00, SL: 11.4 pips, TP: 34.2 pips, Entry Volume: 3226, Position Volume: 0.88 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-05-23 11:00, Exit: 2025-05-23 11:30, SL: 8.8 pips, TP: 26.4 pips, Entry Volume: 5328, Position Volume: 1.14 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-06-02 12:30, Exit: 2025-06-02 14:00, SL: 12.2 pips, TP: 36.6 pips, Entry Volume: 5021, Position Volume: 0.82 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-06-02 15:30, Exit: 2025-06-02 23:30, SL: 12.9 pips, TP: 38.7 pips, Entry Volume: 6032, Position Volume: 0.78 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-06-18 00:00, Exit: 2025-06-18 02:00, SL: 9.7 pips, TP: 29.1 pips, Entry Volume: 5343, Position Volume: 1.03 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-07-14 00:00, Exit: 2025-07-14 00:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 4930, Position Volume: 1.92 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-07-14 04:00, Exit: 2025-07-14 06:00, SL: 8.6 pips, TP: 25.8 pips, Entry Volume: 3301, Position Volume: 1.16 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-07-14 14:00, Exit: 2025-07-14 14:30, SL: 8.7 pips, TP: 26.1 pips, Entry Volume: 4857, Position Volume: 1.15 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-07-16 17:00, Exit: 2025-07-16 18:00, SL: 13.3 pips, TP: 39.9 pips, Entry Volume: 5732, Position Volume: 0.75 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-08-18 04:30, Exit: 2025-08-18 07:00, SL: 10.2 pips, TP: 30.6 pips, Entry Volume: 2747, Position Volume: 0.98 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-08-19 14:30, Exit: 2025-08-19 16:00, SL: 10.4 pips, TP: 31.2 pips, Entry Volume: 5127, Position Volume: 0.96 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-08-25 18:30, Exit: 2025-08-25 21:00, SL: 8.2 pips, TP: 24.6 pips, Entry Volume: 4043, Position Volume: 1.22 lots)
+     - Trade(SELL GBP/JPY, PnL: $+300.00, Entry: 2025-08-28 15:30, Exit: 2025-08-28 21:00, SL: 14.1 pips, TP: 42.3 pips, Entry Volume: 4323, Position Volume: 0.71 lots)
+   Losing Trades:
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-01-20 00:30, Exit: 2025-01-20 02:00, SL: 13.7 pips, TP: 41.1 pips, Entry Volume: 3836, Position Volume: 0.73 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-02-06 06:00, Exit: 2025-02-06 07:00, SL: 17.4 pips, TP: 52.2 pips, Entry Volume: 3145, Position Volume: 0.57 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-02-27 14:30, Exit: 2025-02-27 15:00, SL: 15.7 pips, TP: 47.1 pips, Entry Volume: 8880, Position Volume: 0.64 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-03-04 17:30, Exit: 2025-03-04 18:00, SL: 12.9 pips, TP: 38.7 pips, Entry Volume: 8261, Position Volume: 0.78 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-03-05 04:00, Exit: 2025-03-05 06:00, SL: 19.9 pips, TP: 59.7 pips, Entry Volume: 4453, Position Volume: 0.50 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-03-12 04:30, Exit: 2025-03-12 06:00, SL: 11.2 pips, TP: 33.6 pips, Entry Volume: 3624, Position Volume: 0.89 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-03-12 06:00, Exit: 2025-03-12 06:30, SL: 4.5 pips, TP: 13.5 pips, Entry Volume: 5206, Position Volume: 2.22 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-03-19 11:30, Exit: 2025-03-19 13:30, SL: 16.9 pips, TP: 50.7 pips, Entry Volume: 4460, Position Volume: 0.59 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-05-05 11:00, Exit: 2025-05-05 11:30, SL: 11.2 pips, TP: 33.6 pips, Entry Volume: 3780, Position Volume: 0.89 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-05-05 11:30, Exit: 2025-05-05 12:00, SL: 11.0 pips, TP: 33.0 pips, Entry Volume: 3799, Position Volume: 0.91 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-05-19 14:00, Exit: 2025-05-19 14:30, SL: 10.8 pips, TP: 32.4 pips, Entry Volume: 6671, Position Volume: 0.93 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-05-20 00:00, Exit: 2025-05-20 01:00, SL: 14.8 pips, TP: 44.4 pips, Entry Volume: 4309, Position Volume: 0.68 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-05-20 17:00, Exit: 2025-05-20 18:00, SL: 14.7 pips, TP: 44.1 pips, Entry Volume: 3431, Position Volume: 0.68 lots)
+     - Trade(BUY GBP/JPY, PnL: $-100.00, Entry: 2025-05-26 19:30, Exit: 2025-05-26 21:00, SL: 14.8 pips, TP: 44.4 pips, Entry Volume: 933, Position Volume: 0.68 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-05-27 00:30, Exit: 2025-05-27 04:00, SL: 9.1 pips, TP: 27.3 pips, Entry Volume: 3888, Position Volume: 1.10 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-06-12 12:30, Exit: 2025-06-12 13:00, SL: 9.7 pips, TP: 29.1 pips, Entry Volume: 7243, Position Volume: 1.03 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-08-18 04:00, Exit: 2025-08-18 04:30, SL: 13.1 pips, TP: 39.3 pips, Entry Volume: 3032, Position Volume: 0.76 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-08-26 15:00, Exit: 2025-08-27 00:00, SL: 11.1 pips, TP: 33.3 pips, Entry Volume: 5129, Position Volume: 0.90 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-08-28 04:00, Exit: 2025-08-28 04:30, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 3070, Position Volume: 1.79 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-08-28 04:30, Exit: 2025-08-28 06:00, SL: 7.1 pips, TP: 21.3 pips, Entry Volume: 2534, Position Volume: 1.41 lots)
+     - Trade(SELL GBP/JPY, PnL: $-100.00, Entry: 2025-08-28 12:30, Exit: 2025-08-28 14:00, SL: 16.2 pips, TP: 48.6 pips, Entry Volume: 6878, Position Volume: 0.62 lots)
+
+TRADING SUMMARY:
+   Starting Balance: $1,000.00
+   Final Balance: $4,300.00
+   Total PnL: $3,300.00
+   Peak Balance: $4,400.00
+   Lowest Balance: $800.00
+   Max Drawdown: -29.41%
+   Overall R:R Ratio: 2.76:1

@@ -1,0 +1,108 @@
+
+GBP/USD PURE STRATEGY BACKTEST RESULTS
+================================================================================
+Strategy: GBPUSDStrategy
+
+PURE STRATEGY TESTING:
+   Processed Bars: 7,842
+   Total Available Bars: 8,091
+   Processing Rate: 96.9% of bars
+   Trading Costs: ZERO (Pure strategy performance)
+
+TRADING RESULTS:
+   Total Trades: 83
+   Win Rate: 34.94%
+   Winning Trades:
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-01-20 09:30, Exit: 2025-01-20 10:30, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 3468, Position Volume: 1.79 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-01-22 01:00, Exit: 2025-01-22 06:30, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 2287, Position Volume: 1.89 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-01-30 05:30, Exit: 2025-01-30 07:00, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 1434, Position Volume: 2.04 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-01-30 09:00, Exit: 2025-01-30 09:30, SL: 4.5 pips, TP: 13.5 pips, Entry Volume: 3889, Position Volume: 2.22 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-01-30 15:00, Exit: 2025-01-30 17:00, SL: 7.2 pips, TP: 21.6 pips, Entry Volume: 4880, Position Volume: 1.39 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-02-12 12:00, Exit: 2025-02-12 13:00, SL: 5.0 pips, TP: 15.0 pips, Entry Volume: 2309, Position Volume: 2.00 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-02-14 06:00, Exit: 2025-02-14 07:00, SL: 5.7 pips, TP: 17.1 pips, Entry Volume: 2125, Position Volume: 1.75 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-03-21 15:00, Exit: 2025-03-21 15:30, SL: 7.0 pips, TP: 21.0 pips, Entry Volume: 2748, Position Volume: 1.43 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-03-31 12:30, Exit: 2025-03-31 14:30, SL: 9.5 pips, TP: 28.5 pips, Entry Volume: 2615, Position Volume: 1.05 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-04-02 22:00, Exit: 2025-04-02 23:00, SL: 11.6 pips, TP: 34.8 pips, Entry Volume: 4225, Position Volume: 0.86 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-04-10 17:00, Exit: 2025-04-10 17:30, SL: 9.0 pips, TP: 27.0 pips, Entry Volume: 6204, Position Volume: 1.11 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-04-15 07:00, Exit: 2025-04-15 07:30, SL: 4.1 pips, TP: 12.3 pips, Entry Volume: 4657, Position Volume: 2.44 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-04-16 06:30, Exit: 2025-04-16 07:00, SL: 6.2 pips, TP: 18.6 pips, Entry Volume: 3773, Position Volume: 1.61 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-04-17 21:30, Exit: 2025-04-18 00:00, SL: 5.8 pips, TP: 17.4 pips, Entry Volume: 894, Position Volume: 1.72 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-04-23 09:00, Exit: 2025-04-23 10:00, SL: 8.7 pips, TP: 26.1 pips, Entry Volume: 4048, Position Volume: 1.15 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-04-24 23:00, Exit: 2025-04-25 03:30, SL: 11.0 pips, TP: 33.0 pips, Entry Volume: 954, Position Volume: 0.91 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-04-25 15:30, Exit: 2025-04-27 21:00, SL: 9.5 pips, TP: 28.5 pips, Entry Volume: 2440, Position Volume: 1.05 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-04-30 19:30, Exit: 2025-05-01 01:30, SL: 6.1 pips, TP: 18.3 pips, Entry Volume: 2066, Position Volume: 1.64 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-05-02 12:30, Exit: 2025-05-02 13:00, SL: 8.6 pips, TP: 25.8 pips, Entry Volume: 6591, Position Volume: 1.16 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-05-08 06:00, Exit: 2025-05-08 07:00, SL: 7.7 pips, TP: 23.1 pips, Entry Volume: 3710, Position Volume: 1.30 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-06-04 06:30, Exit: 2025-06-04 08:30, SL: 5.5 pips, TP: 16.5 pips, Entry Volume: 2618, Position Volume: 1.82 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-06-09 15:30, Exit: 2025-06-10 01:30, SL: 8.7 pips, TP: 26.1 pips, Entry Volume: 1961, Position Volume: 1.15 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-06-11 19:00, Exit: 2025-06-12 00:30, SL: 12.4 pips, TP: 37.2 pips, Entry Volume: 1584, Position Volume: 0.81 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-06-15 21:30, Exit: 2025-06-15 22:30, SL: 5.8 pips, TP: 17.4 pips, Entry Volume: 614, Position Volume: 1.72 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-06-20 17:30, Exit: 2025-06-20 19:30, SL: 5.0 pips, TP: 15.0 pips, Entry Volume: 2300, Position Volume: 2.00 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-06-24 02:00, Exit: 2025-06-24 04:30, SL: 8.0 pips, TP: 24.0 pips, Entry Volume: 2655, Position Volume: 1.25 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-07-04 09:00, Exit: 2025-07-07 02:30, SL: 9.3 pips, TP: 27.9 pips, Entry Volume: 2297, Position Volume: 1.08 lots)
+     - Trade(SELL GBP/USD, PnL: $+300.00, Entry: 2025-08-12 02:30, Exit: 2025-08-12 04:30, SL: 4.2 pips, TP: 12.6 pips, Entry Volume: 877, Position Volume: 2.38 lots)
+     - Trade(BUY GBP/USD, PnL: $+300.00, Entry: 2025-08-26 07:30, Exit: 2025-08-26 09:00, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 3411, Position Volume: 2.04 lots)
+   Losing Trades:
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-01-10 07:30, Exit: 2025-01-10 08:30, SL: 9.6 pips, TP: 28.8 pips, Entry Volume: 2125, Position Volume: 1.04 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-01-20 09:00, Exit: 2025-01-20 09:30, SL: 10.2 pips, TP: 30.6 pips, Entry Volume: 3592, Position Volume: 0.98 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-01-21 23:30, Exit: 2025-01-22 00:00, SL: 10.7 pips, TP: 32.1 pips, Entry Volume: 1850, Position Volume: 0.93 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-01-29 19:30, Exit: 2025-01-29 20:00, SL: 8.6 pips, TP: 25.8 pips, Entry Volume: 7987, Position Volume: 1.16 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-01-29 21:00, Exit: 2025-01-29 23:30, SL: 5.1 pips, TP: 15.3 pips, Entry Volume: 2407, Position Volume: 1.96 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-01-30 01:00, Exit: 2025-01-30 02:00, SL: 6.2 pips, TP: 18.6 pips, Entry Volume: 1716, Position Volume: 1.61 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-01-30 02:30, Exit: 2025-01-30 03:00, SL: 4.3 pips, TP: 12.9 pips, Entry Volume: 1972, Position Volume: 2.33 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-02-07 01:00, Exit: 2025-02-07 01:30, SL: 4.9 pips, TP: 14.7 pips, Entry Volume: 1914, Position Volume: 2.04 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-02-12 19:00, Exit: 2025-02-13 00:30, SL: 10.3 pips, TP: 30.9 pips, Entry Volume: 3077, Position Volume: 0.97 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-02-13 01:00, Exit: 2025-02-13 01:30, SL: 8.8 pips, TP: 26.4 pips, Entry Volume: 2540, Position Volume: 1.14 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-02-14 02:30, Exit: 2025-02-14 05:00, SL: 7.2 pips, TP: 21.6 pips, Entry Volume: 1565, Position Volume: 1.39 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-02-20 02:30, Exit: 2025-02-20 03:00, SL: 5.6 pips, TP: 16.8 pips, Entry Volume: 2895, Position Volume: 1.79 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-03-21 09:30, Exit: 2025-03-21 10:00, SL: 6.1 pips, TP: 18.3 pips, Entry Volume: 1936, Position Volume: 1.64 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-03-26 01:00, Exit: 2025-03-26 01:30, SL: 4.5 pips, TP: 13.5 pips, Entry Volume: 2276, Position Volume: 2.22 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-03-26 05:00, Exit: 2025-03-26 06:30, SL: 9.6 pips, TP: 28.8 pips, Entry Volume: 1156, Position Volume: 1.04 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-03-28 12:00, Exit: 2025-03-28 12:30, SL: 11.3 pips, TP: 33.9 pips, Entry Volume: 2389, Position Volume: 0.88 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-03-28 17:00, Exit: 2025-03-28 17:30, SL: 8.3 pips, TP: 24.9 pips, Entry Volume: 2401, Position Volume: 1.20 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-03-30 22:30, Exit: 2025-03-31 00:00, SL: 10.2 pips, TP: 30.6 pips, Entry Volume: 1461, Position Volume: 0.98 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-02 12:30, Exit: 2025-04-02 14:00, SL: 8.9 pips, TP: 26.7 pips, Entry Volume: 2780, Position Volume: 1.12 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-10 15:30, Exit: 2025-04-10 16:00, SL: 7.9 pips, TP: 23.7 pips, Entry Volume: 7301, Position Volume: 1.27 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-13 22:00, Exit: 2025-04-13 23:30, SL: 8.1 pips, TP: 24.3 pips, Entry Volume: 3151, Position Volume: 1.23 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-15 06:30, Exit: 2025-04-15 07:00, SL: 6.3 pips, TP: 18.9 pips, Entry Volume: 4392, Position Volume: 1.59 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-17 07:00, Exit: 2025-04-17 10:30, SL: 8.3 pips, TP: 24.9 pips, Entry Volume: 4410, Position Volume: 1.20 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-17 19:00, Exit: 2025-04-17 21:00, SL: 9.3 pips, TP: 27.9 pips, Entry Volume: 2345, Position Volume: 1.08 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-04-24 21:30, Exit: 2025-04-24 22:00, SL: 8.6 pips, TP: 25.8 pips, Entry Volume: 452, Position Volume: 1.16 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-29 12:30, Exit: 2025-04-29 14:30, SL: 12.4 pips, TP: 37.2 pips, Entry Volume: 3199, Position Volume: 0.81 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-29 17:00, Exit: 2025-04-29 18:00, SL: 10.4 pips, TP: 31.2 pips, Entry Volume: 1738, Position Volume: 0.96 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-29 19:30, Exit: 2025-04-29 21:00, SL: 6.5 pips, TP: 19.5 pips, Entry Volume: 1370, Position Volume: 1.54 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-04-29 21:30, Exit: 2025-04-30 01:30, SL: 6.8 pips, TP: 20.4 pips, Entry Volume: 705, Position Volume: 1.47 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-05-01 12:30, Exit: 2025-05-01 13:00, SL: 4.5 pips, TP: 13.5 pips, Entry Volume: 4759, Position Volume: 2.22 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-02 12:00, Exit: 2025-05-02 12:30, SL: 8.7 pips, TP: 26.1 pips, Entry Volume: 2913, Position Volume: 1.15 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-05 06:00, Exit: 2025-05-05 06:30, SL: 4.7 pips, TP: 14.1 pips, Entry Volume: 2696, Position Volume: 2.13 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-05 21:30, Exit: 2025-05-06 00:00, SL: 5.9 pips, TP: 17.7 pips, Entry Volume: 368, Position Volume: 1.69 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-21 07:00, Exit: 2025-05-21 07:30, SL: 8.0 pips, TP: 24.0 pips, Entry Volume: 4051, Position Volume: 1.25 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-22 01:00, Exit: 2025-05-22 01:30, SL: 4.8 pips, TP: 14.4 pips, Entry Volume: 2207, Position Volume: 2.08 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-22 02:30, Exit: 2025-05-22 03:30, SL: 6.7 pips, TP: 20.1 pips, Entry Volume: 2185, Position Volume: 1.49 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-05-22 07:30, Exit: 2025-05-22 08:00, SL: 6.6 pips, TP: 19.8 pips, Entry Volume: 3799, Position Volume: 1.52 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-06-04 02:00, Exit: 2025-06-04 02:30, SL: 7.3 pips, TP: 21.9 pips, Entry Volume: 1650, Position Volume: 1.37 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-06-04 12:00, Exit: 2025-06-04 12:30, SL: 7.2 pips, TP: 21.6 pips, Entry Volume: 3683, Position Volume: 1.39 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-06-20 15:30, Exit: 2025-06-20 16:00, SL: 8.5 pips, TP: 25.5 pips, Entry Volume: 2741, Position Volume: 1.18 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-07-04 02:00, Exit: 2025-07-04 04:00, SL: 10.3 pips, TP: 30.9 pips, Entry Volume: 1254, Position Volume: 0.97 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-07-04 07:30, Exit: 2025-07-04 08:00, SL: 4.6 pips, TP: 13.8 pips, Entry Volume: 2998, Position Volume: 2.17 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-07-17 12:00, Exit: 2025-07-17 12:30, SL: 13.1 pips, TP: 39.3 pips, Entry Volume: 2348, Position Volume: 0.76 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-07-18 05:30, Exit: 2025-07-18 06:30, SL: 7.8 pips, TP: 23.4 pips, Entry Volume: 1179, Position Volume: 1.28 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-07-18 17:00, Exit: 2025-07-20 21:30, SL: 7.8 pips, TP: 23.4 pips, Entry Volume: 1551, Position Volume: 1.28 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-08-08 09:00, Exit: 2025-08-08 09:30, SL: 5.3 pips, TP: 15.9 pips, Entry Volume: 2862, Position Volume: 1.89 lots)
+     - Trade(SELL GBP/USD, PnL: $-100.00, Entry: 2025-08-12 06:00, Exit: 2025-08-12 06:30, SL: 5.8 pips, TP: 17.4 pips, Entry Volume: 2829, Position Volume: 1.72 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-26 06:00, Exit: 2025-08-26 07:00, SL: 4.0 pips, TP: 12.0 pips, Entry Volume: 2743, Position Volume: 2.50 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-26 15:00, Exit: 2025-08-26 17:00, SL: 7.3 pips, TP: 21.9 pips, Entry Volume: 3429, Position Volume: 1.37 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-26 17:00, Exit: 2025-08-26 17:30, SL: 4.4 pips, TP: 13.2 pips, Entry Volume: 1682, Position Volume: 2.27 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-26 19:00, Exit: 2025-08-26 20:00, SL: 9.5 pips, TP: 28.5 pips, Entry Volume: 1392, Position Volume: 1.05 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-26 22:00, Exit: 2025-08-26 23:30, SL: 6.4 pips, TP: 19.2 pips, Entry Volume: 557, Position Volume: 1.56 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-28 15:00, Exit: 2025-08-28 21:00, SL: 7.0 pips, TP: 21.0 pips, Entry Volume: 3404, Position Volume: 1.43 lots)
+     - Trade(BUY GBP/USD, PnL: $-100.00, Entry: 2025-08-29 15:00, Exit: 2025-08-29 16:30, SL: 5.2 pips, TP: 15.6 pips, Entry Volume: 3895, Position Volume: 1.92 lots)
+
+TRADING SUMMARY:
+   Starting Balance: $1,000.00
+   Final Balance: $4,300.00
+   Total PnL: $3,300.00
+   Peak Balance: $4,900.00
+   Lowest Balance: $800.00
+   Max Drawdown: -30.77%
+   Overall R:R Ratio: 2.84:1
